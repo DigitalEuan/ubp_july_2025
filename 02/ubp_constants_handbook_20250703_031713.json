@@ -1,0 +1,826 @@
+{
+  "test_parameters": {
+    "n_terms": 30,
+    "constants_tested": 13,
+    "timestamp": "2025-07-03T03:17:13.974100"
+  },
+  "individual_results": {
+    "sqrt_2": {
+      "constant_info": {
+        "value": 1.4142135623730951,
+        "name": "Square Root of 2",
+        "symbol": "\u221a2",
+        "category": "A",
+        "expected_role": "Dimensional Scaling Operator",
+        "description": "Pythagoras constant, diagonal ratio"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 28,
+          "strength": 471404538.1125888
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 1480960997.7321675
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 1281410356.772212
+        },
+        "overall_rate": 0.9777777777777777
+      },
+      "operational_metrics": {
+        "operational_stability": 0.1712342308366568,
+        "geometric_coherence": 0.20887120089249112,
+        "mean_operation_strength": 1.082757258691901,
+        "constant_resonance": 0.6008442084696024,
+        "cross_coupling": {
+          "pi_coupling": 0.9639025328498773,
+          "phi_coupling": 0.6574648864798875,
+          "e_coupling": 0.646233382868095,
+          "total_coupling": 2.26760080219786
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.09430665803533335,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.09430665803533335,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.09005622475680189,
+        "vs_phi": 0.17485416009374816,
+        "vs_e": 0.10408044197035424
+      }
+    },
+    "sqrt_3": {
+      "constant_info": {
+        "value": 1.7320508075688772,
+        "name": "Square Root of 3",
+        "symbol": "\u221a3",
+        "category": "A",
+        "expected_role": "Triangular/Hexagonal Geometry Operator",
+        "description": "Theodorus constant"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 27,
+          "strength": 577350279.1333736
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 1813799384.2703233
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 1569400759.0651991
+        },
+        "overall_rate": 0.9666666666666667
+      },
+      "operational_metrics": {
+        "operational_stability": 0.1712342308226108,
+        "geometric_coherence": 0.21251301648377952,
+        "mean_operation_strength": 1.3261013995449213,
+        "constant_resonance": 0.7006796230657727,
+        "cross_coupling": {
+          "pi_coupling": 0.7458348293157431,
+          "phi_coupling": 0.9430625459026668,
+          "e_coupling": 0.9999912355992944,
+          "total_coupling": 2.6888886108177044
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.13367998995112715,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.13367998995112715,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.1276549871591807,
+        "vs_phi": 0.2478563322166229,
+        "vs_e": 0.14753435999707404
+      }
+    },
+    "sqrt_5": {
+      "constant_info": {
+        "value": 2.23606797749979,
+        "name": "Square Root of 5",
+        "symbol": "\u221a5",
+        "category": "A",
+        "expected_role": "Golden Ratio Foundation Operator",
+        "description": "Related to golden ratio (\u03c6 = (1+\u221a5)/2)"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 20,
+          "strength": 745355998.6368828
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 2341604925.3880773
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 2026087663.0380466
+        },
+        "overall_rate": 0.8888888888888888
+      },
+      "operational_metrics": {
+        "operational_stability": 0.17123423080852418,
+        "geometric_coherence": 0.23308805386213804,
+        "mean_operation_strength": 1.7119895452732767,
+        "constant_resonance": 0.7044514797926793,
+        "cross_coupling": {
+          "pi_coupling": 0.6754902942615238,
+          "phi_coupling": 0.8886326201383093,
+          "e_coupling": 0.20349114180735883,
+          "total_coupling": 1.767614056207192
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.13246830053722672,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "RESONANCE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.13246830053722672,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.12649790900089444,
+        "vs_phi": 0.24560973649182619,
+        "vs_e": 0.14619709312369691
+      }
+    },
+    "cbrt_2": {
+      "constant_info": {
+        "value": 1.2599210498948732,
+        "name": "Cube Root of 2",
+        "symbol": "\u221b2",
+        "category": "A",
+        "expected_role": "Three-Dimensional Scaling Operator",
+        "description": "Cubic scaling constant"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 18,
+          "strength": 419973689.11455816
+        },
+        "level_6": {
+          "corrections": 29,
+          "strength": 1319386249.2795932
+        },
+        "level_9": {
+          "corrections": 23,
+          "strength": 1141606839.368239
+        },
+        "overall_rate": 0.7777777777777778
+      },
+      "operational_metrics": {
+        "operational_stability": 0.17123423081423794,
+        "geometric_coherence": 0.2423800643307874,
+        "mean_operation_strength": 1.53125,
+        "constant_resonance": 0.4903794720874398,
+        "cross_coupling": {
+          "pi_coupling": 0.7287988174184163,
+          "phi_coupling": 0.45092262957051543,
+          "e_coupling": 0.2794563382639867,
+          "total_coupling": 1.4591777852529186
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.06170753074486116,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "AUXILIARY_FUNCTION",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.06170753074486116,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.05892635126423857,
+        "vs_phi": 0.11441205408645994,
+        "vs_e": 0.06810279577946736
+      }
+    },
+    "tau": {
+      "constant_info": {
+        "value": 6.283185307179586,
+        "name": "Tau",
+        "symbol": "\u03c4",
+        "category": "A",
+        "expected_role": "Full-Circle Geometric Operator",
+        "description": "Circle constant (2\u03c0)"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 30,
+          "strength": 2094395140.9887588
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 6579736385.529588
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 5693156248.647466
+        },
+        "overall_rate": 1.0
+      },
+      "operational_metrics": {
+        "operational_stability": 2.1190049046981843,
+        "geometric_coherence": 0.007428439347242355,
+        "mean_operation_strength": -0.3140625,
+        "constant_resonance": 0.6030660261429512,
+        "cross_coupling": {
+          "pi_coupling": 0.7768532196159377,
+          "phi_coupling": 0.7373688780783203,
+          "e_coupling": 0.9802071584778198,
+          "total_coupling": 2.4944292561720776
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.7896088263696329,
+      "operational_classification": {
+        "operational_strength": "MODERATE",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "FUNDAMENTAL_COMPUTATIONAL_CONSTANT",
+        "unified_score": 0.7896088263696329,
+        "is_active_operator": "True",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.7540208869543032,
+        "vs_phi": 1.4640152775400421,
+        "vs_e": 0.8714425613666971
+      }
+    },
+    "euler_gamma": {
+      "constant_info": {
+        "value": 0.5772156649015329,
+        "name": "Euler-Mascheroni Constant",
+        "symbol": "\u03b3",
+        "category": "A",
+        "expected_role": "Harmonic/Series Convergence Operator",
+        "description": "Limiting difference between harmonic series and natural log"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 28,
+          "strength": 192405232.1414471
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 604458852.9214483
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 523011632.1762815
+        },
+        "overall_rate": 0.9777777777777777
+      },
+      "operational_metrics": {
+        "operational_stability": 0.1712342309976751,
+        "geometric_coherence": 0.23031380779989297,
+        "mean_operation_strength": 0.3488654952863117,
+        "constant_resonance": 0.6182930825150802,
+        "cross_coupling": {
+          "pi_coupling": 0.9707214301733096,
+          "phi_coupling": 0.5946592580375774,
+          "e_coupling": 0.9999984486054426,
+          "total_coupling": 2.5653791368163295
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.04237817768356906,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.04237817768356906,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.04046817874539998,
+        "vs_phi": 0.07857346256918389,
+        "vs_e": 0.04677018097228642
+      }
+    },
+    "ln_2": {
+      "constant_info": {
+        "value": 0.6931471805599453,
+        "name": "Natural Logarithm of 2",
+        "symbol": "ln(2)",
+        "category": "A",
+        "expected_role": "Binary/Logarithmic Scaling Operator",
+        "description": "Logarithmic scaling constant"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 27,
+          "strength": 231049069.78217503
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 725862050.6543972
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 628056476.6344612
+        },
+        "overall_rate": 0.9666666666666667
+      },
+      "operational_metrics": {
+        "operational_stability": 0.17123423096567714,
+        "geometric_coherence": 0.23400822428577062,
+        "mean_operation_strength": 0.403169729262706,
+        "constant_resonance": 0.6614342186857669,
+        "cross_coupling": {
+          "pi_coupling": 0.8214828312256388,
+          "phi_coupling": 0.4342996512050011,
+          "e_coupling": 0.951299173595333,
+          "total_coupling": 2.2070816560259727
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.04657189028600671,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.04657189028600671,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.04447287928890835,
+        "vs_phi": 0.08634903335124962,
+        "vs_e": 0.05139852291814161
+      }
+    },
+    "apery": {
+      "constant_info": {
+        "value": 1.2020569031595942,
+        "name": "Ap\u00e9ry's Constant",
+        "symbol": "\u03b6(3)",
+        "category": "B",
+        "expected_role": "Higher-Order Series Operator",
+        "description": "Riemann zeta function at 3"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 8,
+          "strength": 400685636.4250699
+        },
+        "level_6": {
+          "corrections": 18,
+          "strength": 1258791050.1752243
+        },
+        "level_9": {
+          "corrections": 12,
+          "strength": 1089176482.0935075
+        },
+        "overall_rate": 0.4222222222222222
+      },
+      "operational_metrics": {
+        "operational_stability": 0.23694197711991227,
+        "geometric_coherence": 0.257033460246885,
+        "mean_operation_strength": 3.135991160378337,
+        "constant_resonance": 0.5319327315106848,
+        "cross_coupling": {
+          "pi_coupling": 0.5930007727981121,
+          "phi_coupling": 0.36550250079702057,
+          "e_coupling": 0.12560415249400603,
+          "total_coupling": 1.0841074260891386
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.05357718826771632,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "RESONANCE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.05357718826771632,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.05116244609863292,
+        "vs_phi": 0.09933757011330235,
+        "vs_e": 0.059129838238393906
+      }
+    },
+    "catalan": {
+      "constant_info": {
+        "value": 0.915965594177219,
+        "name": "Catalan's Constant",
+        "symbol": "G",
+        "category": "B",
+        "expected_role": "Dirichlet Series Operator",
+        "description": "Dirichlet beta function"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 7,
+          "strength": 305321866.33190674
+        },
+        "level_6": {
+          "corrections": 19,
+          "strength": 959196931.7760355
+        },
+        "level_9": {
+          "corrections": 12,
+          "strength": 829950879.9390407
+        },
+        "overall_rate": 0.4222222222222222
+      },
+      "operational_metrics": {
+        "operational_stability": 0.2369419771275122,
+        "geometric_coherence": 0.2540606355635734,
+        "mean_operation_strength": 2.3896206568925464,
+        "constant_resonance": 0.7511984759224514,
+        "cross_coupling": {
+          "pi_coupling": 0.26094585197923253,
+          "phi_coupling": 0.08861646871245972,
+          "e_coupling": 0.6065706933544058,
+          "total_coupling": 0.9561330140460981
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.0424436730333909,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "RESONANCE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.0424436730333909,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.040530722197442054,
+        "vs_phi": 0.07869489762606878,
+        "vs_e": 0.046842464150361786
+      }
+    },
+    "omega": {
+      "constant_info": {
+        "value": 0.5671432904097838,
+        "name": "Omega Constant",
+        "symbol": "\u03a9",
+        "category": "B",
+        "expected_role": "Self-Referential/Recursive Operator",
+        "description": "Lambert W function constant"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 25,
+          "strength": 189047771.8567347
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 593911082.6961373
+        },
+        "level_9": {
+          "corrections": 29,
+          "strength": 513885111.8083027
+        },
+        "overall_rate": 0.9333333333333333
+      },
+      "operational_metrics": {
+        "operational_stability": 0.171234230950978,
+        "geometric_coherence": 0.22960126156709582,
+        "mean_operation_strength": 0.43421908171999074,
+        "constant_resonance": 0.6226889731943182,
+        "cross_coupling": {
+          "pi_coupling": 0.9778351861470407,
+          "phi_coupling": 0.6076824910654121,
+          "e_coupling": 0.9995754303385165,
+          "total_coupling": 2.585093107550969
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.04190407394165889,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.04190407394165889,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.040015443021019774,
+        "vs_phi": 0.07769442588910191,
+        "vs_e": 0.04624694191339281
+      }
+    },
+    "silver_ratio": {
+      "constant_info": {
+        "value": 2.414213562373095,
+        "name": "Silver Ratio",
+        "symbol": "\u03b4_S",
+        "category": "C",
+        "expected_role": "Secondary Proportion Operator",
+        "description": "1 + \u221a2, octagonal geometry"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 24,
+          "strength": 804737862.3532116
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 2528158546.5841775
+        },
+        "level_9": {
+          "corrections": 29,
+          "strength": 2187504296.0974855
+        },
+        "overall_rate": 0.9222222222222223
+      },
+      "operational_metrics": {
+        "operational_stability": 0.17123423080495204,
+        "geometric_coherence": 0.24372774370925354,
+        "mean_operation_strength": 1.848382258691901,
+        "constant_resonance": 0.5690696660043374,
+        "cross_coupling": {
+          "pi_coupling": 0.9639025328498773,
+          "phi_coupling": 0.7215991232635912,
+          "e_coupling": 0.27570932386117186,
+          "total_coupling": 1.9612109799746402
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.146346538298131,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "RESONANCE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.146346538298131,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.13975064984720953,
+        "vs_phi": 0.2713414044123994,
+        "vs_e": 0.16151364817947453
+      }
+    },
+    "plastic_number": {
+      "constant_info": {
+        "value": 1.324717957244746,
+        "name": "Plastic Number",
+        "symbol": "\u03c1",
+        "category": "C",
+        "expected_role": "Cubic Proportion Operator",
+        "description": "Real root of x\u00b3 = x + 1"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 27,
+          "strength": 441572663.79148865
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 1387241417.2464213
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 1200318928.931721
+        },
+        "overall_rate": 0.9666666666666667
+      },
+      "operational_metrics": {
+        "operational_stability": 0.17123423084182798,
+        "geometric_coherence": 0.24275303339128917,
+        "mean_operation_strength": 1.0142371860155088,
+        "constant_resonance": 0.5262753319147414,
+        "cross_coupling": {
+          "pi_coupling": 0.8521768628274249,
+          "phi_coupling": 0.5418547622995531,
+          "e_coupling": 0.443378215150601,
+          "total_coupling": 1.837409840277579
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.07586304357524656,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "RESONANCE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.07586304357524656,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.07244387029797807,
+        "vs_phi": 0.14065781825855014,
+        "vs_e": 0.08372536222807946
+      }
+    },
+    "supergolden": {
+      "constant_info": {
+        "value": 1.465571231876768,
+        "name": "Supergolden Ratio",
+        "symbol": "\u03c8",
+        "category": "C",
+        "expected_role": "Tribonacci Sequence Operator",
+        "description": "Tribonacci constant"
+      },
+      "test_parameters": {
+        "sequence_length": 30,
+        "sequence_type": "fibonacci",
+        "leech_dimension": 24
+      },
+      "offbits_created": 30,
+      "error_correction": {
+        "level_3": {
+          "corrections": 28,
+          "strength": 488523767.21165234
+        },
+        "level_6": {
+          "corrections": 30,
+          "strength": 1534742627.696408
+        },
+        "level_9": {
+          "corrections": 30,
+          "strength": 1327945232.1943786
+        },
+        "overall_rate": 0.9777777777777777
+      },
+      "operational_metrics": {
+        "operational_stability": 0.1712342308339747,
+        "geometric_coherence": 0.17620335764135142,
+        "mean_operation_strength": 1.1220779744056506,
+        "constant_resonance": 0.6889211708937751,
+        "cross_coupling": {
+          "pi_coupling": 0.9941562815854428,
+          "phi_coupling": 0.7177375969267138,
+          "e_coupling": 0.7461383608937198,
+          "total_coupling": 2.4580322394058767
+        },
+        "leech_integration": {
+          "kissing_utilization": 0.00015262515262515263,
+          "dimensional_coverage": 1.0
+        }
+      },
+      "unified_contribution": 0.10493737487123236,
+      "operational_classification": {
+        "operational_strength": "MINIMAL",
+        "operational_type": "CORE_OPERATOR",
+        "computational_role": "PASSIVE_MATHEMATICAL_VALUE",
+        "unified_score": 0.10493737487123236,
+        "is_active_operator": "False",
+        "leech_lattice_compatible": false
+      },
+      "comparison_to_core": {
+        "vs_pi": 0.10020781155506325,
+        "vs_phi": 0.19456459308183216,
+        "vs_e": 0.11581290847688136
+      }
+    }
+  },
+  "operational_constants": [
+    {
+      "key": "tau",
+      "name": "Tau",
+      "score": 0.7896088263696329,
+      "role": "FUNDAMENTAL_COMPUTATIONAL_CONSTANT"
+    }
+  ],
+  "summary": {
+    "core_operators": [
+      {
+        "key": "tau",
+        "name": "Tau",
+        "score": 0.7896088263696329,
+        "role": "FUNDAMENTAL_COMPUTATIONAL_CONSTANT"
+      }
+    ],
+    "specialized_functions": [],
+    "supporting_elements": [],
+    "passive_values": [],
+    "operational_rate": 0.07692307692307693,
+    "total_tested": 13,
+    "total_operational": 1
+  }
+}

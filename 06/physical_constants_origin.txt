@@ -1,0 +1,1042 @@
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Theme: A Theoretical Perspective Based on the Metre-Second System of
+Units and a Dimensioned Fine Structure Constant
+
+Topic: On the Origin of the Physical Constants
+Part 1 – Revealing Hidden Physical Constants in Physics
+Author: Randy Sorokowski
+Independent Researcher
+_______________________________________________________________________
+Abstract
+This is the first in a series of three papers revealing the origin of the physical constants.
+1) In this the first paper, we use known physical constants commonly used in physics in
+conjunction with the Metre-Second System of units to identify five new physical
+constants previously hidden to physicists using other systems of units. These new
+physical constants will then be paired with existing physical constants creating new
+dimensionless constants. In this way we are able to identify all of the fundamental
+dimensioned and dimensionless physical constants needed to fully describe nature.
+2) In the second paper of the series, we use the physical constants established in the first
+paper to reveal a beautiful pattern, organization and symmetry found in the Metre-Second
+Table (MS Table). The MS Table is a distance-time dimensionality matrix which
+positions physical properties and their associated physical constants according to a
+natural pattern which governs the universe. The matrix visually maps out the known
+equations used in physics and reveals new undiscovered relationships. In this way we
+establish the true laws of nature based on a natural pattern.
+3) In the third paper of the series, we convert the patterns seen in the MS Table into a
+mathematical expression in the form of a power law function. Each physical constant is
+mathematically defined as a set of exponents, such that when the exponents are placed
+into the function the value of the physical constant is derived along with its MS units of
+measurement. This function correlates the known physical constants and the equations of
+physics with a very simple numerical pattern involving numbers which have been known
+to mankind since ancient times.
+Keywords:
+Origin of the Physical constants, Hidden variables, New Physics, Interpretation of
+Quantum Mechanics, Metre-Second System of Units, SI System, Units of measurement,
+Patterns, Unification, TOE
+
+1
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Background
+The “Metre-Second System of Units” (MS system) is a novel approach to units of
+measurement in that it describes all physical properties in terms of two fundamental units
+of measurement that being distance in metres (m) and time in seconds (s). In this way we
+overcome inherent difficulties and limitations found in other system of units such as the
+International System of Units (SI system) and its precursor the Metre-Kilogram-Second
+(MKS) system. The kilogram, Ampere (Coulomb), and the Kelvin of the SI system are
+changed from fundamental units of measurement to derived units.
+Conventional systems of units suffer from three related problems:
+1) They assume that the kilogram, ampere/coulomb and the Kelvin are mutually
+independent and cannot be reduced to more fundamental units of measurement.
+2) Through a lack of understanding of the difference between electric force and
+mechanical force, the physicists whom established the electromagnetic units of
+measurement over one hundred years ago, unknowingly assigned incorrect units
+of measurement to certain electrical properties and created an issue referred to as
+“dimensional shift”. In this context, dimensional shift refers to a situation where
+the units of measurements of certain physical properties are displaced by a factor
+equivalent to [m1s2] units.
+3) The consequence of “dimensional shift” is that it makes the discovery of the true
+meaning of the fine structure constant impossible, alters the interpretation of
+certain physical constants, destroys determinism and realism and makes quantum
+mechanics an incomplete theory.
+The goal of the MS System is to point out these issues and to provide an alternative
+system of units which is better able to provide the missing details needed to fully describe
+quantum mechanics and natural phenomena.
+
+Introduction
+Despite the overwhelming success of quantum mechanics, after nearly a century of
+debate and experimentation, there is no consensus among physicists as to how this
+mathematical theory ‘corresponds’ with reality. In addition, there still remain many
+unanswered questions in physics which this theory simply can not answer.
+The reason that physicists have not yet been able to create a unified theory is because
+quantum mechanics is an incomplete theory which does not have the capacity to discover
+that which is still missing. The problem isn’t necessarily with quantum mechanics, but
+rather with the system of units of measurement that physics relies on.
+
+2
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+The SI system of units and other similar systems which do not physically relate mass
+with electric charge do not have the capacity to fully describe all phenomena in a way
+which reveals all of the details needed for a complete understanding of nature.
+
+The Role of Physical Constants in Physics
+Science is the systematic study of the natural and physical world through observation and
+experimentation. In physics and in other disciplines, physical constants appear from
+experimental observations and have become part of our scientific theories.
+There are two types of physical constants used in physics, dimensioned and
+dimensionless.
+Dimensioned constants are fundamental to the measuring system used. They represent a
+scaled up or a scaled down version of some underlying natural feature of the universe.
+The difference between two or more systems of units lies in the magnitude of the scaling
+used. This means that if one wishes to convert from one system to another, all that is
+required are simple conversion factors.
+Dimensionless constants on the other hand are numerical values which have no units of
+measurement assigned to them and are therefore independent of the system of units used.
+Dimensionless constants represent a ratio of two physical constants of the same
+dimension. They are more fundamental in nature than the dimensioned constants because
+regardless of the system of units used, the dimensionless constants should be the same for
+all systems.
+Collectively both the dimensioned and dimensionless physical constants are needed to
+fully describe the fundamental laws of nature. The reason that the dimensioned constants
+are important is that the dimensionless physical constants can only be found by correctly
+pairing the dimensioned physical constants.
+
+The Importance of Paired Physical Constants
+The concept of opposites was first described by the Greek philosopher Heraclitus of
+Ephesus1 (c. 535 – c. 475 BC). Through his doctrine, Heraclitus characterized the
+universe as a “unity of opposites”2. He suggested that all things in the universe are in a
+state of constant change, but are bound by pairs of contrary opposite properties.
+Heraclitus also suggested that opposites are necessary for life, and to balance the
+perceived changes in nature leading to a single, divine law of the universe, which he
+called the “Logos”.
+
+3
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Some indicators that the universe functions as a unity of opposites are:
+1) In pair production, a particle is created with its paired anti-particle.
+2) A positive electric charge is opposed by a negative electric charge.
+3) Right handed spin is opposed by left handed spin.
+4) Acids are neutralized by bases.
+5) Endothermic reactions are opposed by exothermic reactions.
+These and other opposites define the universe by setting up opposing fields of tension
+which constrain or balance a dynamic ever changing system making it appear to be
+stable. In addition, these opposing pairs of properties must govern the entire universe,
+because as we peer into space, the universe appears the same in all directions. This tells
+us that the laws of physics and its defining parameters are the same across the entire
+extent of the universe otherwise the universe would appear differently in different
+regions.
+The concept of opposites can be illustrated through the back and forth motion of a
+swinging pendulum. A pendulum is a system which is in a state of constant change, with
+the illusion or sense of stability appearing at various fixed points of reference along the
+pendulum. At the top of the pendulum where the string is highly constrained, there is
+very little motion in the string. This is in stark contrast to the bottom of the pendulum
+which is not well constrained. Here the pendulum shows larger changes in position.
+Regardless of where the change in position is measured, the pendulum appears to want to
+return to a fixed point at the bottom of the pendulum. The important thing to realize here
+is that the degree of perceived change is proportional to the degree of the constraint and
+the stability of the system is centered somewhere between the extreme opposites.
+The pendulum example shows that there are three fixed points of reference in the system.
+There is the right end-point, the left end-point and the mid-point at the centre of the
+system. The mid-point represents the equilibrium position of the change, and the two
+extreme end-points represent the limits of the change.
+
+Diagram 1. Swinging Pendulum
+
+4
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+In order to describe the position of the string at any moment in time, one would have to
+compare its position with at least one of the three fixed reference points.
+To describe the full range of movement of the pendulum would require at least two of the
+three reference points.
+In a simple system such as a pendulum the ratio of the two end-points will be exactly 1,
+but in a more complex system, two or more pairs of physical constants might be needed
+to form a ratio of 1.
+The universe is no different than a pendulum. The physical constants used in physics are
+related to fixed points of reference just as in the pendulum. This means that when we
+identify a physical constant, it is either one of the fixed reference points or it is a constant
+which represents a combination of a number of these references.
+In mainstream physics the speed of light is not paired with any other velocity. Instead, a
+ratio of 1 formed by:
+1 = o o c2
+where,
+o = 4πE-7 H/m = 1.2566370614…E-6 {A-2 s-2 kg-1 m1} permeability of free space
+o = 8.8541878128(13)E-12 {A2 s4 kg-1 m-3} permittivity of free space
+c2 = 8.98755179E+16 {m2 s-2}
+speed of light squared
+The problem with this relationship is that the speed of light is not being compared to
+another velocity, but instead is being compared to the product of two constants o and o
+where their units of measurement have been contrived to suit theory. This means that in
+mainstream physics, there is no other reference velocity by which the velocity of light,
+“c” can be compared with. A similar problem exists with the Gravitational constant G
+which also remains unpaired. The reason that this is a problem is that it is impossible to
+identify all of the parameters which define the universe without first establishing the
+limiting factors which define the physical constants. The only way that this can be done
+is by correctly pairing the known physical constants so that the minimal and maximal
+values can be identified..
+Based on this we make the following claim:
+Due to the fact that quantum mechanics can not discover the corresponding partner to
+several fundamental physical constants thus preventing it from discovering the origin of
+the physical constants, it can be assumed that quantum mechanics is an incomplete
+theory.
+In other words, to complete quantum mechanics, the unpaired physical constants must be
+paired. It is only in this way that the correct dimensionless physical constants can be
+established.
+
+5
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+We now provide a method for discovering these missing constants.
+If the universe is defined by paired parameters, and if these pairs define all physical
+constants, then by using the correct approach, one should be able to extract these defining
+parameters from the known physical constants. This implies that each time physical
+constants are algebraically combined the calculated result should provide details as to
+what these parameters may be.
+In order for this approach to work, the system of units used must be capable of
+interpreting the result of these calculations, and this is where the SI system fails. When
+one attempts this approach with the SI system, one finds instances where the same
+numerical value can be created several different ways, but with conflicting units of
+measurement. Instead of taking this as a sign that the SI system of units might be flawed,
+physicists slough-off these contradictions as mere numerical coincidences and the values
+are simply ignored.
+So in reality physicists could predict the values of the missing physical constants if they
+had a system of units which could correctly interpret the results of all calculations.
+We now provide further details of the issues plaguing the SI system which will then be
+followed by a specific example illustrating the problem.
+
+The Seven Base Units of the SI System
+The SI system is based on the following seven fundamental units of measurement which
+are assumed to be mutually independent:
+
+Table 1. The SI Fundamental Units of Measurement
+Quantity
+length
+mass
+time
+electric current
+thermodynamic temperature
+luminous intensity
+amount of substance
+
+SI Name
+metre
+kilogram
+second
+ampere
+Kelvin
+candela
+mole
+
+SI Symbol
+m
+kg
+s
+A
+K
+cd
+mol
+
+The problem with this system is that the assumption that they are mutually independent
+makes it physically impossible to relate the unit of mass (kilogram), the unit of electric
+current/charge (ampere/coulomb) and the unit of temperature (Kelvin) in a way which
+can reveal the finer details of how these physical properties truly relate to one another.
+
+6
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+For example, the Newton, the SI unit of force, on its own does not reveal any details of
+the nature of force. The Newton only identifies the measurement as being a push or pull.
+Additional details about force are revealed, when one realizes that the Newton is a
+derived unit equivalent to the fundamental SI unit {kgms-2}. From this we can see that
+force is proportionally dependent on mass and acceleration. These details are not obvious
+just from the symbol, N.
+Similarly, the symbols for mass (kg), electric current (A), electric charge (C) and
+temperature (K) inherently exclude additional details about phenomena which could
+otherwise be revealed if these units were reduced to more fundamental units of
+measurement.
+So even though the SI system appears to function correctly it is in fact hiding information
+from physicists, by not having the capacity to fully interpret combined units of
+measurement. In other words, the finer details needed to completely explain the nature of
+observed phenomena, are excluded from physics by a system of units which can not be
+broken down into smaller elements.
+It is also important to point out, that dimensional analysis can not detect this particular
+problem.
+
+Converting from SI Units to MS Units
+The MS System of units differs from the SI system in that it physically relates mass,
+electric charge and temperature in a way which breaks down the kilogram, coulomb and
+Kelvin into more fundamental units of measurement that being distance and time. It is
+this ability which allows the MS system to reveal the hidden physical constants in
+physics.
+The MS unit equivalents to the SI units are shown in Table 2. When these equivalents
+are used in conjunction with a dimensioned fine structure constant,   1/137 [m1s2], one
+can convert from SI units to MS units.
+
+Table 2. SI Unit and the Equivalent MS Unit
+Quantity
+length
+mass
+time
+frequency
+electric charge
+electric current
+thermodynamic temperature
+
+SI Name
+metre
+kilogram
+second
+per second
+coulomb
+ampere
+Kelvin
+
+7
+
+SI Symbol
+m
+kg
+s
+s-1
+C
+A
+K
+
+MS Unit
+[m1s0]
+[m1s-6]
+[m0s1]
+[m0s-1]
+[m5s-2]
+[m5s-3]
+[m6s-4]
+
+The Metre-Second System of Units
+luminous intensity
+amount of substance
+
+Article 01.0v1, 2021-05-11
+candela
+mole
+
+cd
+mol
+
+same
+same
+
+An Example of the Failings of the SI System
+In the examples which follow, we demonstrate that the SI system can not always
+correctly interpret all calculations.
+In the list which follows, we use known physical constants to calculate the same
+numerical value 19 different ways. Within that list, the SI system gives five different
+interpretations for the same value by assigning five different units of measurements.
+By using the equivalent MS units found in Table 2 and a dimensioned fine structure
+constant ( [m1s2] one can convert from SI units to MS units for each of the 19
+expressions. The MS system clearly provides the same consistent interpretation, for each
+of the 19 examples, indicating that this value is a volume [m3s0].
+The SI units are shown in curved brackets, { } while the corresponding MS unit is shown
+in square brackets [ ]. A list of the physical constants used in the following expressions
+along with their corresponding MS Units can be found in Appendix A.
+Table 3.
+
+An Anomalous Value in Physics
+Expression and Value
+
+1) 2  kB o = 1.78266e-36
+2) 4 ao o 2 kB /c,e = 1.78266e-36
+3) kB /(c RK) = 1.78266e-36
+4) 4 G  /(3 G rc,e o c2) = 1.78266e-36
+5) G  /(3 G rc,e ke) = 1.78266e-36
+6) G 2 /(3 G re ke) = 1.78266e-36
+7) G /(3 G ao ke) = 1.78266e-36
+8) h /(kB c3) = 1.78266e-36
+9) c,e me /(kB c2) = 1.78266e-36
+10) 2  h /(o e c3) = 1.78266e-36
+11) 4 B /(c,e c3) = 1.78266e-36
+12) e/c2 = 1.78266e-36
+13) c,e me e /(h c) = 1.78266e-36
+14) 2R e c,e/(2 c2) = 1.78266e-36
+15) rs,e e/(2 G me) = 1.78266e-36
+16) 2 G c,e me re /(2 G c2) = 1.78266e-36
+17)  2 G c,e me ao/(2 G c2) = 1.78266e-36
+18)  G (c,e)2 me/(4 G c2) = 1.78266e-36
+19) me c (c,e)4/(8h) = 1.78547e-36
+
+8
+
+SI Units
+
+MS Units
+
+{A2·s2·m-1·K-1}
+{A2·s2·m-1·K-1}
+{A2·s2·m-1·K-1}
+{A2·s6·m-7}
+{A2·s6·m-7}
+{A2·s6·m-7}
+{A2·s6·m-7}
+{K·s4·m-3}
+{K·s4·m-3}
+{C·s2·m-2}
+{C·s2·m-2}
+{C·s2·m-2}
+{C·s2·m-2}
+{C·s2·m-2}
+{C·s2·m-2}
+{m3}
+{m3}
+{m3}
+{m3}
+
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+[m3s0]
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Clearly we can see that there is a problem with the SI system making it virtually
+impossible for someone to correctly interpret this value. Even if someone correctly
+identified this value as a volume as indicated in calculations 16 to 19, the contradictory
+units shown in calculations 1 to 15 would definitely be in conflict with this choice. This
+should have been a red flag to physicist that something is seriously wrong with the SI
+system of units.
+Perhaps the reason that physicists have not recognized this problem is because it was
+conveniently camouflaged by an innovative solution. Around 1927, the electron-volt
+(eV) system of units was introduced to work in conjunction with the SI system. By using
+electron-volts, the value 1.78266e-36 does not appear in calculation and so this issue is
+not brought to light. When one needs to convert back to SI units, one uses conversion
+factors such as the following:
+1 eV/c2 = 1.78266E-36 kg
+The reason that this method works is that you can assign what ever SI unit of
+measurement to the 1.78266E-36 value as one sees fit. In this way the contradictions of
+the SI system are avoided and the desired units of measurement which agree with theory
+are imposed.
+This however is not a solution to the underlying problem, but a simple trick which
+bypasses the problem entirely. Physics is not about promoting a particular theory by
+manipulating things to suit theory and hiding its flaws, but it is about correctly
+interpreting that which nature is tying to reveal to us.
+The 19 examples which were given are equations which are describing an important
+feature of the universe. By ignoring the 19 equations and the value 1.78266E-36,
+physicists are also choosing to ignore that part of nature which is being described by
+these equations. In this case it is the role of volume in describing electromagnetic
+phenomena. It is in this way that quantum mechanics has become an incomplete theory
+which deviates from reality.
+
+Revealing Five Hidden Physical Constants in Physics
+In total there are five physical constants which are dimensionally hidden by the SI
+system. In each case we provide one example of how they can be calculated but it is
+important to realize that each of these can be derived in a variety of ways.
+
+List 1: A List of Fundamental Physical Constants Hidden by the SI System
+1) The Schwarzschild Radius of the Universe (rs,u) and the Compton wavelength of a
+photon (c,)
+
+9
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+rs,u = (2 2 kB)-1 = 2.166529185E+26 {K/J} [m1s0] Schwarzschild Radius of
+the Universe
+The Schwarzschild radius of the universe is also the longest possible wavelength of a
+photon c,. Thus, rs,u = rc, and 2rs,u = c,.
+c, = 1.361270434E+27 [m1s0]
+
+Compton wavelength of a photon
+
+2) The Zero-Point Velocity (vo)
+vo = (e/( c2))1/2 = 1.562974266E-17 {C s2 m-2}1/2 [m1s-1]
+
+or
+
+vo = (2o kB)1/2 = 1.562974266E-17 {N-1⋅m-2⋅C2⋅N⋅m⋅K-1}1/2 [m1s-1]
+3) The Zero-Point Radius of an Electron (ro)
+ro = 2 3 me c2/e = 0.3971421552 {kg m2 s-2 C-1} [m1s0]
+4) The Fine Structure Constant Squared (2)
+2 = 2(8)4 G = 5.325135448E-5 {m3kg-1s-2} [m2s4]
+
+inverse electric field
+
+5) The Volume Element (dVe)
+dVe = e/c2 = 1.782661907E-36 {C s2 m-2} [m3 s0]
+
+volume element
+
+Pairing the Physical Constants
+As stated earlier, in order to create an all encompassing theory of the universe, one must
+be able to identify all of the dimensioned and dimensionless physical constants which
+describe nature. The pairing of the physical constants of similar dimensions is therefore
+critical in identifying all of the dimensionless physical constants.
+We will now proceed to do what quantum mechanics fails to do and that is pair the
+physical constants.
+List 2. A List of Paired Physical Constants
+1) Wavelength. The Compton wavelength of the photon, (c, = 1.361270434E+27 m) is
+paired with the Compton wavelength of the electron, (c,e = 2.426310237E-12 m).
+2) Velocity. The zero-point velocity, (vo = 1.562974266E-17 m/s) is paired with the
+speed of light in a vacuum, (c = 2.997924580E+08 m/s).
+
+10
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+3) Radii. The zero-point radius of an electron (ro = 0.3971421552 m) is paired with the
+Schwarzschild radius of the electron (rs,e = 1.352753926E-57 m).
+4) Fields. The primary electric field is the inverse of the fine structure constant squared,
+-2 [m-2s-4]. In the MS System, the fine structure constant squared (2 = 5.325135448E-5
+[m2s4]) is paired with the Gravitational constant (G = 6.673308839E-11 [m2s4]). The SI
+unit for G is {m3⋅kg–1⋅s–2} which is equivalent to the MS unit [m2s4].
+5) Volume. The volume element dVe = 1.782661907E-36 m3 is paired with a non-local
+volume dV = 2.233981385E-42 m3.
+
+Additional Details of the Five Hidden Physical Constants
+1) The Schwarzschild Radius of the Universe
+The hidden constant: rs,u = (2 2 kB)-1 = 2.166529185E+26 {K/J} [m1s0] appears to be
+the Schwarzschild radius of universe and is the bridge between the microscopic world
+and the macroscopic world. Notice that this macroscopic value is defined by the fine
+structure constant and the Boltzmann constant, both of which are microscopic in
+magnitude.
+The Schwarzschild radius can be used to determine the maximum wavelength of a
+photon, c, .
+c, = 2rs,u = rBohr 2 = rBohr e c = rBohr
+= 1.361270434E+27 m
+rc,e e o rc,e h  rc,e kB 
+This radius is extremely important because it establishes a fundamental wavelength
+which permeates all of space and gives rise to several cosmological values.
+a) Cosmological Predictions
+To validate our claims, we use the radius, rs,u or the wavelength, c, to determine the mass
+of the universe, the value of the Hubble constant the density of the cosmic background
+radiation (CMB) and the temperature of the CMB.
+i) Mass of Universe
+Mu = rs,u c2/(2G) = 1.458930923e+53 kg [m1s-6]
+
+mass of universe
+
+ii) Hubble Constant
+Ho = 16
+c = 2.29557E-18 s-1
+(33)1/2 rs,u
+
+Hubble constant
+
+11
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+iii) Cosmic Microwave Background Radiation Mass Density
+cmb =
+Mu
+3
+4 (c,)3
+
+= 3 (2 Ho)2 = 4.66328e-31 kg/m3 [m-2s-6]
+8 2
+CMB radiation mass density
+
+iv) Cosmic Microwave Background Radiation Energy Density
+Ucmb = cmb c2 = 4.19115E-14 J
+
+[m0s-8]
+
+CMB radiation energy density
+
+v) Cosmic Microwave Background Radiation Temperature
+Tcmb4 = (h c)4
+(2rs,u dVe) kB4
+Tcmb = 2.73 Kelvin [m6s-4]
+Notice that the SI dimension for (h c/(kB T)) is the metre:
+L {m} = h {J s}c {m/s}
+kB {J/K} T {K}
+When taken to the fourth power the units are m4.
+L4 {m4} = ( h c )4
+(kB T)4
+
+and
+
+2rs,u dVe = (h c)4
+(kB Tcmb)4
+
+This shows that in SI units, rs,u must be a radius, and dVe a volume.
+
+2) The Zero-Point Velocity (vo)
+The MS System relies on two equally important but opposing velocities.
+One of these velocities is the well known speed of light in a vacuum, “c”. It represents
+the maximum velocity of a photon or relativistic particle.
+The second velocity is a minimal which we will refer to as the zero-point velocity, “vo”
+because it appears in processes involving the Higgs mechanism, the vacuum expectation
+value, the Mexican-hat potential, Bose-Einstein condensate, and any other process where
+electromagnetic radiation is converted into a localized volume, mass and electric charge.
+Several concepts in mainstream physics such as the Higgs mechanism and the BoseEinstein condensate imply a minimal velocity but do not specifically quantified a value.
+The zero-point velocity appears to be this minimal velocity. In the MS System, the
+velocity vo is considered to fundamental as is the speed of light, c.
+
+12
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+The zero-point velocity appears when temperature is reduced to near absolute-zero or
+when a collision has occurred causing the wave or particle to stop and lose nearly all of
+its momentum.
+A comparison of the two opposing velocities can be made in this way. The speed of
+light, “c” is used to describe a process where there is a radial divergence of energy from a
+local source to an extended region of space. This occurs at velocities approaching
+3.0E+8 m/s such as that which occurs with the emission of electromagnetic radiation.
+The zero-point velocity, “vo” represents the opposite process where there is a
+convergence of energy from an extended region of space to a localized region
+characterized by the creation of a localized volume element “dVe” when velocity is
+reduced to 1.563E-17 m/s. The localized volume also corresponds to the localization of
+mass and electric charge since these physical properties reside within this volume. The
+range in velocities associated with the electron, are therefore constrained by the minimal
+velocity (vo) and the maximal velocity (c).
+Other methods of calculating the velocity, vo are:
+vo2 =
+
+= 2o kB = 2 kB = 2 o c,e me = kB e = dVe = 2.443E-34 [m2s-2]
+ c2
+o c2
+e
+E
+
+e
+
+Again we must emphasize, that if we were to examine the SI dimensions for each of the
+expressions shown above, we would find that the SI system does not have the capacity to
+give a consistent interpretation.
+For example, the SI units in the following expression are [C∙s2/m2] and do not suggest
+that this value is velocity squared:
+vo2 =
+
+= 2.443E-34 [C∙s2/m2]
+
+e
+2
+
+ c
+
+In the MS System, the Coulomb [C] is defined as [m5s-2] and the fine structure constant
+() is defined as [m1s2].
+Using these units with the expression gives [m5 s-2]/([m1s2][m2s-2]) which reduces to the
+dimension of velocity squared [m2s-2].
+
+3) The Zero-Point Radius (ro)
+The zero-point radius can be derived by:
+ro = 22 ke e = 2 e
+= 0.3971421552 m
+rc,e
+c,e o
+
+13
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+a) Paired Metrics
+The concept of pairing physical constants is further strengthened with the following
+hidden expression which cannot be created by mainstream physics.
+ro = 22 me = 0.3971421552 m [m1s0]
+vo2
+
+zero-point metric
+
+The zero-point metric is the corresponding pair to the well known Schwarzschild metric.
+rs = 2G m
+c2
+Here is a comparison of the two expressions based on the mass of the electron:
+Zero-Point Metric
+
+Schwarzschild Metric
+
+ro = 2 2 me = 0.397142 m
+vo2
+
+rs,e = 2 G me = 1.35275E-57 m
+c2
+
+where,
+ro = 0.397142 m
+Zero-Point radius
+2
+ = 5.325135E-5 [m2s4]
+inverse electric field
+me = 9.10938E-31 [m1s-6] mass of electron
+vo = 1.56297E-17 [m1s-1] min. velocity
+
+where,
+rs,e = 1.35275E-57 m Schwarzschild radius
+G = 6.67331E-11 [m2s4]
+inverse gravitational field
+me = 9.10938E-31 [m1s-6] mass of electron
+c = 2.99792458E+8 [m1s-1] max. velocity
+
+The zero-point metric defines the physical radius (ro) of the electron as temperature is
+reduced to near absolute-zero. At this temperature the velocity is reduced to a minimal
+(vo) and the magnitude of the radius is proportional to the inverse electric field (2).
+The Schwarzschild metric defines the physical radius (rs) of the electron is driven to
+relativistic velocity (c). The extent of the radius is proportional to the Gravitational
+constant (G).
+The symmetry of the two expressions supports the claim that they are corresponding
+expressions. This helps establish that ro is a radius, 2 is a field and vo is a velocity.
+Combining the two expressions gives a dimensionless ratio of the two fields:
+2(8)4 = 2 = ro vo2 = 797975.2737
+G rs,e c2
+In the above relationship, 2/G are opposing fields, ro/rs,e are opposing radii, and vo2/c2 are
+opposing velocities.
+
+14
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+In addition, the same dimensionless ratio is also created with the volume element and the
+product of three lengths which we refer to as the volume of a photon, dV = c, c,e rs,e/2 =
+2.233981385E-42 [m3s0].
+2(8)4 = 2 = ro vo2 = dVe____ = 797975.2737 [m0s0]
+G rs,e c2 dV
+b) Minimum Temperature Related to Electron Oscillation
+The MS system shows that it is the oscillation of particles such as the electron which
+gives rise to temperature where the wavelength of the oscillation is inversely proportional
+to the temperature.
+Using the zero-point radius, ro gives a temperature which approaches absolute-zero:
+To = me c2 rc,e = e c2 = 0.005770666011 K [m6s-4]
+kB ro 2ro
+
+minimum temperature of electron
+
+The Celsius equivalent is:
+To in °C = -273.15 C + To K = -273.1442293 °C
+A similar temperature to To was achieved on September 2014 by CUORE lab (Cryogenic
+Underground Observatory for Rare Events), at Gran Sasso National Laboratories, part of
+the Italian National Institute for Nuclear Physics (INFN) in Italy, where a copper vessel
+with a volume of one cubic meter was cooled to a temperature of 6 mK (−273.144 °C) for
+15 days.3 4 With this, the lab set a world record for the lowest sustained temperature.
+We suggest that the MS predicted value To has been experimentally verified by CUORE
+lab.
+Here are additional methods of calculating To:
+To = e c2 vo2 = 2 G e vo2 = 0.005770666011 K [m6s-4]
+me 42 2 4rs,e
+The temperature To can also be derived using other established physical constants.
+To = (e {C})2
+= 0.005770666011 C2 kg-1 - in SI units
+4 3 me {kg}
+Again we demonstrate that the SI system cannot correctly interpret the results, while the
+MS System units which follow give the same consistent interpretation.
+To =
+
+(e [m5s-2])2
+= 0.005770666011 K [m6s-4] - in MS units
+4 ( [m1s2]) 3 me [m1s-6]
+
+15
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+4) The Fine Structure Constant Squared (2)
+a) The Dimensioned Fine Structure Constant
+The MS System uses a dimensioned fine structure constant. It represents a volume
+divided by velocity squared, which is why it is assigned the MS unit [m1s2].
+In terms of fundamental parameters, it is defined as follows:
+ = 2rc,e 2rc, ro = (2rc,e)3 = dVe = 7.297352574e-3 [m1s2]
+c2
+2
+8 vo2
+vo2
+Here we can clearly see that the fine structure constant is not a dimensionless value as
+mainstream physics claims.
+b) The Fundamental Electric Field (2)
+The inverse of the fine structure constant squared, -2 [m-2s-4] can be considered to be the
+fundamental electric field. In mainstream physics the fine structure constant squared is
+associated with the Rydberg constant (R) which is used to determine the wavelength of
+emitted or absorbed photons.
+R = 2
+2c,e
+The line spectra equation used by mainstream physics is as follows:
+1 = Z2(1 - 1 )
+R
+( n12 n22 )
+where,
+R = 10973731 [m1s4] Rydberg constant
+In comparison, here is the MS perspective:
+2c,e Efield = 2c,e -2 = Z 2  ( 1 - 1 ) = 1
+( n12 n22) R
+In the MS System the fundamental electric field Efield = 1/2 = -2 is the reference electric
+field to which other varying electric fields are being compared. This means that,
+( 1 - 1 )
+represent a varying electric field where 1/n12 is the lower energy field
+2
+2
+( n1 n2 )
+and 1/n22 is the upper energy field. The 1 in the numerator would be of
+dimension [m-2s-4].
+
+16
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+The Compton wavelength of the electron c,e = 2.42631E-12 [m1s0] is the reference
+wavelength to which the emitted/absorbed photon of wavelength,  is compared. Z is the
+atomic number.
+In the MS System the product of the Efield [m-2s-4] and wavelength [m1s0] is electric
+potential [m-1s-4]. This means that according to the MS System, the emitted or absorbed
+photon in line spectra occurs because of changes in electric potential.
+This makes more sense that the conventional perspective because we can easily identify
+which physical properties are being compared on the LHS and RHS of the equation.
+With the conventional approach, it is difficult to understand how the dimensionless value
+2 can evoke changes to the wavelength.
+In the MS System, the opposing field to the fine structure constant squared, 2 [m2s4] is
+the gravitational field represented by the Gravitational constant, G [m2s4].
+The dimensionless ratio formed from these two fields is 2(8)4:
+2 = 2(8)4
+G
+In mainstream physics it is impossible to form this relationship because the fine structure
+constant is assumed to be a dimensionless value. This means that it cannot be paired with
+a dimensioned gravitational constant. It is the lack of association between 2 and G
+which prevents gravity from being incorporated into quantum mechanics.
+
+5) The Volume Element (dVe)
+The volume element, dVe is the fundamental three dimensional functional unit of the
+universe. It is the vessel in which mass and electric charge reside. It represents the
+missing piece which is needed to explain the collapse of the wave function, the
+measurement problem, dark energy, conservation of energy and entropy. Without the
+volume element, it is impossible to fully describe energy conservation because energy is
+only a small part of a larger concept known as the mass-charge product which involves
+the speed of light squared, the volume element, and mass.
+mass-charge product [m6s-8] = mass [m1s-6] x electric charge [m5s-2] or
+mass-charge product [m6s-8] = energy [m3s-8] x volume [m3s0] or
+mass-charge product [m6s-8] = mass [m1s-6] x velocity squared [m1s-1]2 x volume [m3s0]
+What is important to recognize here is that volume is dynamic and has a number of
+configurations ranging from a localized to an extended configuration. The extended
+
+17
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+configuration explains non-local effects such as action-at-a distance where as the
+localized form explains localized particle interactions.
+The value of the volume element is calculated by:
+dVe = e/c2 =1.78266e-36 [m3s0]
+
+volume element or
+
+dVe = (c,e)3  1.78266e-36 [m3s0]
+8
+
+showing that it is a localized volume.
+
+In comparison, the volume element can also be determined by:
+dVe = 2 c,e c, rs,e = c,e c, ro vo2 = 1.78266e-36 [m3s0] extended volume
+G
+2
+2 c2
+In comparing the localized volume with the extended volume we see that one length has
+become extended, while another length has undergone compression. The conservation
+laws of physics are based upon the relationships depicted in the above expression where a
+gain in value of one or more properties is balanced by a loss in value of one or more other
+properties. Each physical constant in the expression represents either a minimum,
+maximum or equilibrium value.
+By multiplying the above by G/2 we derive the magnitude of the extended volume, dV.
+dV.= G dVe = c,e c, rs,e = c,e c, ro vo2 G = 2.233981385E-42 [m3s0]
+2
+2
+2 c2 2
+Notice that the volume element in its extended form, involves the ratio of the two
+opposing fields 2/G and the ratio of the two opposing velocities vo2/c2.
+The ratio of the volume element and the extended volume forms the same ratio as the two
+fields.
+dVe = 2 = 2(8)4
+dV. G
+
+Conclusion
+In this paper we revealed five hidden physical constants (List 1) ignored by mainstream
+physics. These new physical constants were then paired with known physical constants
+(List 2) creating a new metric called the zero-point metric. This new metric was then
+compared to the Schwarzschild metric revealing a previously unknown symmetry
+between two different aspects of physics.
+
+18
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Zero-Point Metric
+
+Schwarzschild Metric
+
+ro = 2 2 me = 0.397142 m
+vo2
+
+rs,e = 2 G me = 1.35275E-57 m
+c2
+
+In the second paper in this series, we will be taking the concepts developed in this paper
+and reveal a beautiful pattern which shows how all physical constants are inter-related
+and defined by one underlying principle which governs the universe.
+
+References:
+1) Joannis N. Markopoulos, The Unity of Opposites in Heraclitean Thought and Modern
+Physics
+2) https://en.wikipedia.org/wiki/Heraclitus
+
+3) CUORE, https://en.wikipedia.org/wiki/CUORE
+4) https://home.infn.it/en/2015-03-26-11-50-59/press-release-2014/1012-cuore-thecoldest-heart-in-the-known-universe
+5) https://en.wikipedia.org/wiki/Schwarzschild_metric
+
+19
+
+The Metre-Second System of Units
+
+Article 01.0v1, 2021-05-11
+
+Appendix A - Fundamental Physical Constants of the Metre-Second System of Units
+c = 2.997924580E+08 [m1s-1]
+
+speed of light in a vacuum
+(maximal velocity)
+vo = (e/( c2))1/2 = 1.562974266E-17 [m1s-1]
+zero-point velocity
+(minimal oscillation velocity)
+c,e = 2rc,e = 2.426310237E-12 [m1s0]
+Compton wavelength of electron
+1 0
+rc,e = 3.861592676E-13 [m s ]
+reduced Compton wavelength of electron
+rs,e = 2G me/c2 = 1.352753926E-57 [m1s0]
+Schwarzschild radius of electron
+2
+2
+1 0
+ro = 2 me/(e/( c )) = 3.971421552E-01 [m s ]
+zero-point radius of electron
+1 0
+c, = 1.361270434E+27 [m s ]
+Compton wavelength of photon
+rc, = (22 kB)-1 = 2.166529185E+26 [m1s0] Schwarzschild radius of universe
+c,p = 1.321409854E-15 m
+Compton wavelength of proton
+
+Physical Constants derived from the Fundamental Parameters
+o = 1.256637061E-06 [m-7s0]
+Permeability of free space
+o = 8.854187817E-12 [m5s2]
+Permittivity of free space
+-5 -2
+ke = 8.987551788E+09 [m s ]
+Coulomb constant
+h = 6.626070040E-34 [m3s-7]
+Planck constant
+2 4
+G = 6.673308839E-11 [m s ]
+inverse gravitational field
+2 = 5.325135448E-05 [m2s4]
+inverse electric field
+ = 7.297352566E-03 [m1s2]
+fine structure constant
+2
+3 0
+dVe = e/c = 1.782661907E-36 [m s ]volume element  (c,e)3/8
+e = 1.602176621E-19 [m5s-2]
+elementary charge
+7 -3
+B = 9.274009995E-24 [m s ]
+Bohr magneton
+mp = 1.672621898E-27 [m1s-6]
+proton rest mass
+1 -6
+me = 9.109383558E-31 [m s ]
+electron rest mass
+e = 9.284764521E-24 [m7s-3]
+magnetic moment of electron
+ao = rBohr = 5.291772107E-11 [m0s-2]
+value known as the Bohr radius
+re = 2.817940323E-15 [m2s2]
+value known as the Classical electron radius
+2
+6 -4
+To = e c /(2ro) = 5.770666011E-3 [m s ] minimum temperature of an electron
+kB = 1.379510242E-23 [m-3s-4]
+Boltzmann constant
+-7 -3
+RK = 2.581280746E+04 [m s ]
+value known as the Von Klitzing constant
+G = 1.751549217E-45 [m0s0]
+Gravitational coupling constant
+R = 1.097373157E+07 [m1s4]
+value known as the Rydberg constant
+2
+0 -4
+E = o c e/2 = 9.047564011E-9 [m s ]
+electric flux
+ℓP = 1.616134996E-35 [m1s0]
+Planck length
+1 -6
+MP = 2.176595947E-08 [m s ]
+Planck mass
+m = 1.623644356E-69 [m1s-6]
+photon/graviton rest mass
+3 0
+photon volume (extended volume element)
+dV = 2.233981385E-42 [m s ]
+Mu = 1.458930923E+53 [m1s-6]
+mass of universe
+Ho = 2.295570872E-18 [m0s-1]
+Hubble constant
+
+20
+
+

@@ -1,0 +1,1014 @@
+{
+  "analysis_metadata": {
+    "date": "2025-07-04T00:54:49.662499",
+    "framework": "UBP Quantum Integration v1.0",
+    "quantum_tests": [
+      "entanglement",
+      "bell_inequality",
+      "coherence",
+      "superposition"
+    ]
+  },
+  "quantum_analysis_results": {
+    "pi": {
+      "constant_name": "pi",
+      "constant_value": 3.141592653589793,
+      "offbits_count": 117,
+      "quantum_states_count": 20,
+      "analysis_timestamp": "2025-07-04T00:54:49.663078",
+      "entanglement_analysis": {
+        "tests_performed": 10,
+        "entangled_pairs": 0,
+        "mean_entanglement": 0.0,
+        "max_entanglement": 0.0,
+        "entanglement_rate": 0.0
+      },
+      "bell_inequality": {
+        "bell_violation": "False",
+        "chsh_value": 0.0,
+        "correlations": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quantum_advantage": 0
+      },
+      "coherence_analysis": {
+        "mean_l1_coherence": 7.216449660063518e-17,
+        "std_l1_coherence": 1.8335493750980252e-16,
+        "mean_entropy_coherence": "0j",
+        "std_entropy_coherence": 0.0,
+        "max_coherence": 4.440892098500626e-16,
+        "coherence_efficiency": 7.216449660063517e-17,
+        "individual_measures": [
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 14,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.039930555555555566
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 13,
+            "l1_coherence": -1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          }
+        ]
+      },
+      "superposition_analysis": {
+        "mean_interference": 2.088888888888889,
+        "std_interference": 0.41216082202203114,
+        "mean_quantum_advantage": 7.894919286223336e-17,
+        "max_quantum_advantage": 2.220446049250313e-16,
+        "superposition_efficiency": 7.894919286223336e-17,
+        "tests_performed": 45,
+        "individual_tests": [
+          {
+            "state_pair": [
+              0,
+              1
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.4999999999999999,
+            "quantum_advantage": 2.220446049250313e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              2
+            ],
+            "interference": 2.0000000000000004,
+            "visibility": 0.5000000000000002,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              3
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              4
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              5
+            ],
+            "interference": 2.0000000000000004,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          }
+        ]
+      },
+      "quantum_metrics": {
+        "entanglement_score": 0.0,
+        "bell_score": 0,
+        "coherence_score": 7.216449660063517e-17,
+        "superposition_score": 7.894919286223336e-17,
+        "overall_quantum_advantage": 7.555684473143427e-17,
+        "quantum_classification": "Classical"
+      }
+    },
+    "phi": {
+      "constant_name": "phi",
+      "constant_value": 1.618033988749895,
+      "offbits_count": 68,
+      "quantum_states_count": 20,
+      "analysis_timestamp": "2025-07-04T00:54:49.690478",
+      "entanglement_analysis": {
+        "tests_performed": 10,
+        "entangled_pairs": 0,
+        "mean_entanglement": 0.0,
+        "max_entanglement": 0.0,
+        "entanglement_rate": 0.0
+      },
+      "bell_inequality": {
+        "bell_violation": "False",
+        "chsh_value": 0.0,
+        "correlations": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quantum_advantage": 0
+      },
+      "coherence_analysis": {
+        "mean_l1_coherence": 5.551115123125783e-17,
+        "std_l1_coherence": 1.807312143953211e-16,
+        "mean_entropy_coherence": "0j",
+        "std_entropy_coherence": 0.0,
+        "max_coherence": 4.440892098500626e-16,
+        "coherence_efficiency": 5.5511151231257815e-17,
+        "individual_measures": [
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          }
+        ]
+      },
+      "superposition_analysis": {
+        "mean_interference": 2.1777777777777776,
+        "std_interference": 0.5691665988829199,
+        "mean_quantum_advantage": 3.454027187722709e-17,
+        "max_quantum_advantage": 1.1102230246251565e-16,
+        "superposition_efficiency": 3.454027187722709e-17,
+        "tests_performed": 45,
+        "individual_tests": [
+          {
+            "state_pair": [
+              0,
+              1
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              2
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              3
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.4999999999999999,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 0.9999999999999998
+          },
+          {
+            "state_pair": [
+              0,
+              4
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              5
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          }
+        ]
+      },
+      "quantum_metrics": {
+        "entanglement_score": 0.0,
+        "bell_score": 0,
+        "coherence_score": 5.5511151231257815e-17,
+        "superposition_score": 3.454027187722709e-17,
+        "overall_quantum_advantage": 4.5025711554242454e-17,
+        "quantum_classification": "Classical"
+      }
+    },
+    "e": {
+      "constant_name": "e",
+      "constant_value": 2.718281828459045,
+      "offbits_count": 32,
+      "quantum_states_count": 20,
+      "analysis_timestamp": "2025-07-04T00:54:49.696075",
+      "entanglement_analysis": {
+        "tests_performed": 10,
+        "entangled_pairs": 0,
+        "mean_entanglement": 0.0,
+        "max_entanglement": 0.0,
+        "entanglement_rate": 0.0
+      },
+      "bell_inequality": {
+        "bell_violation": "False",
+        "chsh_value": 0.0,
+        "correlations": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quantum_advantage": 0
+      },
+      "coherence_analysis": {
+        "mean_l1_coherence": 1.1102230246251565e-16,
+        "std_l1_coherence": 1.8577584504832502e-16,
+        "mean_entropy_coherence": "0j",
+        "std_entropy_coherence": 0.0,
+        "max_coherence": 4.440892098500626e-16,
+        "coherence_efficiency": 1.1102230246251563e-16,
+        "individual_measures": [
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 22,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 20,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          }
+        ]
+      },
+      "superposition_analysis": {
+        "mean_interference": 2.0444444444444447,
+        "std_interference": 0.2948110924760358,
+        "mean_quantum_advantage": 3.700743415417188e-17,
+        "max_quantum_advantage": 2.220446049250313e-16,
+        "superposition_efficiency": 3.700743415417188e-17,
+        "tests_performed": 45,
+        "individual_tests": [
+          {
+            "state_pair": [
+              0,
+              1
+            ],
+            "interference": 2.0000000000000004,
+            "visibility": 0.5000000000000002,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              2
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              3
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              4
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              5
+            ],
+            "interference": 1.9999999999999996,
+            "visibility": 0.5000000000000002,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          }
+        ]
+      },
+      "quantum_metrics": {
+        "entanglement_score": 0.0,
+        "bell_score": 0,
+        "coherence_score": 1.1102230246251563e-16,
+        "superposition_score": 3.700743415417188e-17,
+        "overall_quantum_advantage": 7.401486830834375e-17,
+        "quantum_classification": "Classical"
+      }
+    },
+    "tau": {
+      "constant_name": "tau",
+      "constant_value": 6.283185307179586,
+      "offbits_count": 122,
+      "quantum_states_count": 20,
+      "analysis_timestamp": "2025-07-04T00:54:49.701307",
+      "entanglement_analysis": {
+        "tests_performed": 10,
+        "entangled_pairs": 0,
+        "mean_entanglement": 0.0,
+        "max_entanglement": 0.0,
+        "entanglement_rate": 0.0
+      },
+      "bell_inequality": {
+        "bell_violation": "False",
+        "chsh_value": 0.0,
+        "correlations": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quantum_advantage": 0
+      },
+      "coherence_analysis": {
+        "mean_l1_coherence": 1.1102230246251566e-17,
+        "std_l1_coherence": 1.919755073330818e-16,
+        "mean_entropy_coherence": "0j",
+        "std_entropy_coherence": 0.0,
+        "max_coherence": 4.440892098500626e-16,
+        "coherence_efficiency": 1.1102230246251563e-17,
+        "individual_measures": [
+          {
+            "offbit_position": 14,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.039930555555555566
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 21,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 23,
+            "l1_coherence": 4.440892098500626e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 13,
+            "l1_coherence": -1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999999,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 14,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.039930555555555566
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 14,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.039930555555555566
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 18,
+            "l1_coherence": -2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          },
+          {
+            "offbit_position": 15,
+            "l1_coherence": 1.1102230246251565e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 0.9999999999999997,
+            "amplitude_variance": 0.039930555555555546
+          },
+          {
+            "offbit_position": 16,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 17,
+            "l1_coherence": 0.0,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0,
+            "amplitude_variance": 0.03993055555555556
+          },
+          {
+            "offbit_position": 19,
+            "l1_coherence": 2.220446049250313e-16,
+            "relative_entropy_coherence": "0j",
+            "phase_coherence": 1.0000000000000002,
+            "amplitude_variance": 0.03993055555555559
+          }
+        ]
+      },
+      "superposition_analysis": {
+        "mean_interference": 2.088888888888889,
+        "std_interference": 0.41216082202203125,
+        "mean_quantum_advantage": 4.9343245538895844e-17,
+        "max_quantum_advantage": 2.220446049250313e-16,
+        "superposition_efficiency": 4.9343245538895844e-17,
+        "tests_performed": 45,
+        "individual_tests": [
+          {
+            "state_pair": [
+              0,
+              1
+            ],
+            "interference": 2.0000000000000004,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              2
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5,
+            "quantum_advantage": 1.1102230246251565e-16,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              3
+            ],
+            "interference": 2.0000000000000004,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 0.9999999999999998
+          },
+          {
+            "state_pair": [
+              0,
+              4
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000002,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          },
+          {
+            "state_pair": [
+              0,
+              5
+            ],
+            "interference": 2.000000000000001,
+            "visibility": 0.5000000000000001,
+            "classical_visibility": 0.5000000000000002,
+            "quantum_advantage": 0,
+            "superposition_fidelity": 1.0
+          }
+        ]
+      },
+      "quantum_metrics": {
+        "entanglement_score": 0.0,
+        "bell_score": 0,
+        "coherence_score": 1.1102230246251563e-17,
+        "superposition_score": 4.9343245538895844e-17,
+        "overall_quantum_advantage": 3.0222737892573703e-17,
+        "quantum_classification": "Classical"
+      }
+    }
+  }
+}

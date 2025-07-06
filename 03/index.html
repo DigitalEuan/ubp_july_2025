@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBP Constants Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .calculator-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #34495e;
+        }
+
+        .expression-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #bdc3c7;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-family: 'Courier New', monospace;
+            transition: border-color 0.3s;
+        }
+
+        .expression-input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(149, 165, 166, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #27ae60, #229954);
+            color: white;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+        }
+
+        .results-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .results-container {
+                grid-template-columns: 1fr;
+            }
+            .button-group {
+                flex-direction: column;
+            }
+        }
+
+        .result-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+        }
+
+        .result-card.ubp {
+            border-left-color: #e74c3c;
+            background: linear-gradient(135deg, #fff5f5, #ffeaea);
+        }
+
+        .result-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .result-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #27ae60;
+            margin-bottom: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .result-details {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            line-height: 1.4;
+        }
+
+        .improvement-indicator {
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .constants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .constant-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid #ecf0f1;
+            transition: all 0.3s;
+        }
+
+        .constant-card:hover {
+            border-color: #3498db;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .constant-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .constant-value {
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .constant-score {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .constant-function {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            line-height: 1.4;
+        }
+
+        .examples-section {
+            margin-top: 30px;
+        }
+
+        .example-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-left: 4px solid #3498db;
+        }
+
+        .example-item:hover {
+            background: #e3f2fd;
+            transform: translateX(5px);
+        }
+
+        .example-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .example-expression {
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+            margin-bottom: 5px;
+        }
+
+        .example-description {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .collatz-section {
+            margin-top: 30px;
+        }
+
+        .collatz-input {
+            width: 200px;
+            padding: 10px;
+            border: 2px solid #bdc3c7;
+            border-radius: 8px;
+            font-size: 1em;
+            margin-right: 15px;
+        }
+
+        .collatz-results {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .pi-accuracy {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .pi-accuracy.high {
+            color: #27ae60;
+        }
+
+        .pi-accuracy.medium {
+            color: #f39c12;
+        }
+
+        .pi-accuracy.low {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="ubp_logo.png" alt="UBP Logo" class="logo">
+            <h1>UBP Constants Calculator</h1>
+            <p>Computational Reality Engineering - Compare standard mathematical calculations with UBP-enhanced operational constants</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Main Calculator Section -->
+            <div class="calculator-section">
+                <h2 class="section-title">🧮 Mathematical Expression Calculator</h2>
+                <div class="input-group">
+                    <label for="expression">Enter Mathematical Expression:</label>
+                    <input type="text" id="expression" class="expression-input" 
+                           placeholder="e.g., pi * 5 ** 2, e ** 2, phi * 10, pi_to_e * 3" 
+                           value="pi * 5 ** 2">
+                </div>
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="calculateExpression()">Calculate Both Methods</button>
+                    <button class="btn btn-secondary" onclick="clearResults()">Clear Results</button>
+                    <button class="btn btn-success" onclick="loadExample()">Load Random Example</button>
+                </div>
+
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Calculating with UBP operational constants...</p>
+                </div>
+
+                <div class="error" id="error"></div>
+
+                <div class="results-container" id="results" style="display: none;">
+                    <div class="result-card">
+                        <h3>🔢 Standard Mathematical Result</h3>
+                        <div class="result-value" id="normalResult">-</div>
+                        <div class="result-details" id="normalDetails">Using traditional mathematical constants</div>
+                    </div>
+                    <div class="result-card ubp">
+                        <h3>🚀 UBP Enhanced Result</h3>
+                        <div class="result-value" id="ubpResult">-</div>
+                        <div class="result-details" id="ubpDetails">Using operational constants with 24D Leech Lattice enhancement</div>
+                        <div class="improvement-indicator" id="improvement" style="display: none;">
+                            Enhancement: <span id="improvementFactor">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collatz S_π Analysis Section -->
+            <div class="calculator-section collatz-section">
+                <h2 class="section-title">🔄 Collatz Sequence S_π Analysis</h2>
+                <p style="margin-bottom: 20px; color: #7f8c8d;">
+                    Test UBP theory validation through Collatz sequence analysis. Enter a positive integer to see how it converges to π through geometric analysis.
+                </p>
+                <div class="input-group">
+                    <label for="collatzInput">Enter positive integer (1-10000):</label>
+                    <input type="number" id="collatzInput" class="collatz-input" value="27" min="1" max="10000">
+                    <button class="btn btn-primary" onclick="analyzeCollatz()">Analyze Sequence</button>
+                </div>
+                <div class="collatz-results" id="collatzResults">
+                    <h3>Analysis Results:</h3>
+                    <div id="collatzData"></div>
+                </div>
+            </div>
+
+            <!-- Operational Constants Reference -->
+            <div class="calculator-section">
+                <h2 class="section-title">📊 Operational Constants Reference</h2>
+                <p style="margin-bottom: 20px; color: #7f8c8d;">
+                    These constants have been computationally validated as operational within UBP's 24-dimensional Leech Lattice framework.
+                    Operational Score ≥ 0.3 indicates genuine computational function beyond passive mathematical values.
+                </p>
+                <div class="constants-grid" id="constantsGrid">
+                    <!-- Constants will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Examples Section -->
+            <div class="calculator-section examples-section">
+                <h2 class="section-title">💡 Example Calculations</h2>
+                <p style="margin-bottom: 20px; color: #7f8c8d;">
+                    Click any example to load it into the calculator and see the UBP enhancement in action.
+                </p>
+                <div id="examplesContainer">
+                    <!-- Examples will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let constants = {};
+        let examples = {};
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            loadConstants();
+            loadExamples();
+        });
+
+        // Load operational constants
+        async function loadConstants() {
+            try {
+                const response = await fetch('/api/ubp/constants');
+                constants = await response.json();
+                displayConstants();
+            } catch (error) {
+                console.error('Error loading constants:', error);
+            }
+        }
+
+        // Load examples
+        async function loadExamples() {
+            try {
+                const response = await fetch('/api/ubp/examples');
+                examples = await response.json();
+                displayExamples();
+            } catch (error) {
+                console.error('Error loading examples:', error);
+            }
+        }
+
+        // Display constants in the grid
+        function displayConstants() {
+            const grid = document.getElementById('constantsGrid');
+            grid.innerHTML = '';
+
+            // Core constants
+            Object.entries(constants.core_constants || {}).forEach(([name, data]) => {
+                grid.appendChild(createConstantCard(name, data, 'Core Operator'));
+            });
+
+            // Transcendental compounds
+            Object.entries(constants.transcendental_compounds || {}).forEach(([name, data]) => {
+                grid.appendChild(createConstantCard(name, data, 'Transcendental'));
+            });
+
+            // Physical constants
+            Object.entries(constants.physical_constants || {}).forEach(([name, data]) => {
+                grid.appendChild(createConstantCard(name, data, 'Physical'));
+            });
+        }
+
+        // Create a constant card
+        function createConstantCard(name, data, type) {
+            const card = document.createElement('div');
+            card.className = 'constant-card';
+            card.innerHTML = `
+                <div class="constant-name">${name}</div>
+                <div class="constant-value">${data.value.toFixed(8)}</div>
+                <div class="constant-score">Score: ${data.score.toFixed(3)} (${type})</div>
+                <div class="constant-function">${data.function}</div>
+            `;
+            card.onclick = () => insertConstant(name);
+            return card;
+        }
+
+        // Display examples
+        function displayExamples() {
+            const container = document.getElementById('examplesContainer');
+            container.innerHTML = '';
+
+            // Basic examples
+            if (examples.basic_examples) {
+                const basicSection = document.createElement('div');
+                basicSection.innerHTML = '<h3 style="color: #2c3e50; margin-bottom: 15px;">Basic Examples</h3>';
+                examples.basic_examples.forEach(example => {
+                    basicSection.appendChild(createExampleItem(example));
+                });
+                container.appendChild(basicSection);
+            }
+
+            // Advanced examples
+            if (examples.advanced_examples) {
+                const advancedSection = document.createElement('div');
+                advancedSection.innerHTML = '<h3 style="color: #2c3e50; margin: 30px 0 15px 0;">Advanced Examples</h3>';
+                examples.advanced_examples.forEach(example => {
+                    advancedSection.appendChild(createExampleItem(example));
+                });
+                container.appendChild(advancedSection);
+            }
+        }
+
+        // Create an example item
+        function createExampleItem(example) {
+            const item = document.createElement('div');
+            item.className = 'example-item';
+            item.innerHTML = `
+                <div class="example-name">${example.name}</div>
+                <div class="example-expression">${example.expression}</div>
+                <div class="example-description">${example.description}</div>
+            `;
+            item.onclick = () => loadExpressionExample(example.expression);
+            return item;
+        }
+
+        // Insert constant into expression
+        function insertConstant(constantName) {
+            const input = document.getElementById('expression');
+            const cursorPos = input.selectionStart;
+            const textBefore = input.value.substring(0, cursorPos);
+            const textAfter = input.value.substring(cursorPos);
+            input.value = textBefore + constantName + textAfter;
+            input.focus();
+            input.setSelectionRange(cursorPos + constantName.length, cursorPos + constantName.length);
+        }
+
+        // Load expression example
+        function loadExpressionExample(expression) {
+            document.getElementById('expression').value = expression;
+        }
+
+        // Load random example
+        function loadExample() {
+            const allExamples = [
+                ...(examples.basic_examples || []),
+                ...(examples.advanced_examples || [])
+            ];
+            if (allExamples.length > 0) {
+                const randomExample = allExamples[Math.floor(Math.random() * allExamples.length)];
+                loadExpressionExample(randomExample.expression);
+            }
+        }
+
+        // Main calculation function
+        async function calculateExpression() {
+            const expression = document.getElementById('expression').value.trim();
+            if (!expression) {
+                showError('Please enter a mathematical expression');
+                return;
+            }
+
+            showLoading(true);
+            hideError();
+            hideResults();
+
+            try {
+                const response = await fetch('/api/ubp/calculate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ expression: expression })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    displayResults(data);
+                } else {
+                    showError(data.error || 'Calculation failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Display calculation results
+        function displayResults(data) {
+            const resultsDiv = document.getElementById('results');
+            
+            // Normal result
+            if (data.normal.success) {
+                document.getElementById('normalResult').textContent = data.normal.result.toFixed(8);
+                document.getElementById('normalDetails').textContent = 
+                    `Method: ${data.normal.method}\nProcessed: ${data.normal.processed_expression}`;
+            } else {
+                document.getElementById('normalResult').textContent = 'Error';
+                document.getElementById('normalDetails').textContent = data.normal.error;
+            }
+
+            // UBP result
+            if (data.ubp_enhanced.success) {
+                document.getElementById('ubpResult').textContent = data.ubp_enhanced.result.toFixed(8);
+                document.getElementById('ubpDetails').innerHTML = 
+                    `Method: ${data.ubp_enhanced.method}<br>` +
+                    `Enhancement Factor: ${data.ubp_enhanced.enhancement_factor.toFixed(4)}<br>` +
+                    `Constants Used: ${data.ubp_enhanced.constants_used.join(', ') || 'None'}`;
+
+                // Show improvement indicator
+                if (data.comparison.improvement_factor !== 1) {
+                    const improvementDiv = document.getElementById('improvement');
+                    const factor = data.comparison.improvement_factor;
+                    document.getElementById('improvementFactor').textContent = 
+                        factor > 1 ? `+${((factor - 1) * 100).toFixed(2)}%` : 
+                        factor < 1 ? `${((factor - 1) * 100).toFixed(2)}%` : 'No change';
+                    improvementDiv.style.display = 'inline-block';
+                } else {
+                    document.getElementById('improvement').style.display = 'none';
+                }
+            } else {
+                document.getElementById('ubpResult').textContent = 'Error';
+                document.getElementById('ubpDetails').textContent = data.ubp_enhanced.error;
+                document.getElementById('improvement').style.display = 'none';
+            }
+
+            resultsDiv.style.display = 'grid';
+        }
+
+        // Analyze Collatz sequence
+        async function analyzeCollatz() {
+            const n = parseInt(document.getElementById('collatzInput').value);
+            if (!n || n < 1 || n > 10000) {
+                showError('Please enter a valid integer between 1 and 10000');
+                return;
+            }
+
+            showLoading(true);
+            hideError();
+
+            try {
+                const response = await fetch('/api/ubp/collatz', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ n: n })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok && data.success) {
+                    displayCollatzResults(data);
+                } else {
+                    showError(data.error || 'Collatz analysis failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Display Collatz results
+        function displayCollatzResults(data) {
+            const resultsDiv = document.getElementById('collatzResults');
+            const dataDiv = document.getElementById('collatzData');
+            
+            const accuracyClass = data.pi_accuracy_percent > 90 ? 'high' : 
+                                 data.pi_accuracy_percent > 70 ? 'medium' : 'low';
+            
+            dataDiv.innerHTML = `
+                <p><strong>Input:</strong> n = ${data.input_n}</p>
+                <p><strong>Sequence Length:</strong> ${data.sequence_length} steps</p>
+                <p><strong>Glyphs Formed:</strong> ${data.num_glyphs} coherent clusters</p>
+                <p><strong>Calculated S_π:</strong> ${data.calculated_s_pi.toFixed(8)}</p>
+                <p><strong>Target π:</strong> ${data.target_pi.toFixed(8)}</p>
+                <div class="pi-accuracy ${accuracyClass}">
+                    π Accuracy: ${data.pi_accuracy_percent.toFixed(2)}%
+                </div>
+                <p><strong>UBP Validation:</strong> ${data.operational_validation ? '✅ OPERATIONAL' : '❌ Non-operational'}</p>
+                <p><strong>Sequence Preview:</strong> ${data.sequence_preview.join(' → ')}</p>
+            `;
+            
+            resultsDiv.style.display = 'block';
+        }
+
+        // Utility functions
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+
+        function hideResults() {
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('collatzResults').style.display = 'none';
+        }
+
+        function clearResults() {
+            document.getElementById('expression').value = '';
+            hideResults();
+            hideError();
+        }
+
+        // Handle Enter key in expression input
+        document.getElementById('expression').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateExpression();
+            }
+        });
+
+        // Handle Enter key in Collatz input
+        document.getElementById('collatzInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                analyzeCollatz();
+            }
+        });
+    </script>
+</body>
+</html>
+

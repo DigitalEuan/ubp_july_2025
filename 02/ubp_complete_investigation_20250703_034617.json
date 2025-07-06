@@ -1,0 +1,450 @@
+{
+  "verification_results": {
+    "pi_to_e": {
+      "constant_value": 22.45915771836104,
+      "constant_name": "\u03c0^e",
+      "test_sequence_length": 30,
+      "offbits_created": 30,
+      "unified_score": 0.5519543557297145,
+      "is_operational": "True",
+      "error_correction_rate": 1.0,
+      "calculation_method": "transparent_rigorous"
+    },
+    "e_to_pi": {
+      "constant_value": 23.140692632779263,
+      "constant_name": "e^\u03c0",
+      "test_sequence_length": 30,
+      "offbits_created": 30,
+      "unified_score": 0.4812795973099224,
+      "is_operational": "True",
+      "error_correction_rate": 1.0,
+      "calculation_method": "transparent_rigorous"
+    },
+    "tau": {
+      "constant_value": 6.283185307179586,
+      "constant_name": "\u03c4",
+      "test_sequence_length": 30,
+      "offbits_created": 30,
+      "unified_score": 0.5355163375254922,
+      "is_operational": "True",
+      "error_correction_rate": 1.0,
+      "calculation_method": "transparent_rigorous"
+    },
+    "gelfond_schneider": {
+      "constant_value": 2.665144142690225,
+      "constant_name": "2^\u221a2",
+      "test_sequence_length": 30,
+      "offbits_created": 30,
+      "unified_score": 0.5197515920755165,
+      "is_operational": "True",
+      "error_correction_rate": 1.0,
+      "calculation_method": "transparent_rigorous"
+    }
+  },
+  "ultimate_results": {
+    "all_results": {
+      "pi_to_e": {
+        "constant_value": 22.45915771836104,
+        "constant_name": "\u03c0^e",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5519543557297145,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "unknown"
+      },
+      "e_to_pi": {
+        "constant_value": 23.140692632779263,
+        "constant_name": "e^\u03c0",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4812795973099224,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "unknown"
+      },
+      "gelfond_schneider": {
+        "constant_value": 2.665144142690225,
+        "constant_name": "2^\u221a2",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5197515920755165,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "gelfond_schneider"
+      },
+      "gelfond_schneider_pi": {
+        "constant_value": 5.047497267370911,
+        "constant_name": "\u03c0^\u221a2",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4831619223390955,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "gelfond_schneider"
+      },
+      "gelfond_schneider_e": {
+        "constant_value": 4.1132503787829275,
+        "constant_name": "e^\u221a2",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5232608226317399,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "gelfond_schneider"
+      },
+      "gelfond_schneider_phi": {
+        "constant_value": 1.974936585783606,
+        "constant_name": "\u03c6^\u221a2",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4933921464705054,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "gelfond_schneider"
+      },
+      "gelfond_schneider_tau": {
+        "constant_value": 13.452307777378502,
+        "constant_name": "\u03c4^\u221a2",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.6291251708207178,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "gelfond_schneider"
+      },
+      "pi_to_phi": {
+        "constant_value": 6.373902142303395,
+        "constant_name": "\u03c0^\u03c6",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5909129861884967,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "phi_to_pi": {
+        "constant_value": 4.53475716115518,
+        "constant_name": "\u03c6^\u03c0",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5348491585537329,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "e_to_phi": {
+        "constant_value": 5.0431656433600285,
+        "constant_name": "e^\u03c6",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4764289597955601,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "phi_to_e": {
+        "constant_value": 3.6990253265804744,
+        "constant_name": "\u03c6^e",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4905023538365202,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "tau_to_phi": {
+        "constant_value": 19.565103791267788,
+        "constant_name": "\u03c4^\u03c6",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5740674046333168,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "phi_to_tau": {
+        "constant_value": 20.564022510648183,
+        "constant_name": "\u03c6^\u03c4",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4924345142590565,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "core_compounds"
+      },
+      "pi_to_pi": {
+        "constant_value": 36.4621596072079,
+        "constant_name": "\u03c0^\u03c0",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.607116868182561,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "self_exponentials"
+      },
+      "e_to_e": {
+        "constant_value": 15.154262241479259,
+        "constant_name": "e^e",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.47413180483324513,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "self_exponentials"
+      },
+      "phi_to_phi": {
+        "constant_value": 2.1784575679375995,
+        "constant_name": "\u03c6^\u03c6",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.48034662945311074,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "self_exponentials"
+      },
+      "tau_to_tau": {
+        "constant_value": 103540.92043427199,
+        "constant_name": "\u03c4^\u03c4",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4830476643998982,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "self_exponentials"
+      },
+      "e_to_pi_to_e": {
+        "constant_value": 5673986070.5057955,
+        "constant_name": "e^(\u03c0^e)",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.5417603458326231,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "nested"
+      },
+      "e_to_ln_pi": {
+        "constant_value": 3.141592653589793,
+        "constant_name": "e^ln(\u03c0)",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4496510362248577,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "logarithmic"
+      },
+      "pi_to_ln_e": {
+        "constant_value": 3.141592653589793,
+        "constant_name": "\u03c0^ln(e)",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4496510362248577,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "logarithmic"
+      },
+      "e_to_sin_pi": {
+        "constant_value": 1.0000000000000002,
+        "constant_name": "e^sin(\u03c0)",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.4001991423943584,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "trigonometric"
+      },
+      "pi_to_cos_e": {
+        "constant_value": 0.3521531685161394,
+        "constant_name": "\u03c0^cos(e)",
+        "test_sequence_length": 30,
+        "offbits_created": 30,
+        "unified_score": 0.6087599510811128,
+        "is_operational": "True",
+        "error_correction_rate": 1.0,
+        "calculation_method": "transparent_rigorous",
+        "family": "trigonometric"
+      }
+    },
+    "operational_compounds": [
+      {
+        "key": "gelfond_schneider_tau",
+        "name": "\u03c4^\u221a2",
+        "value": 13.452307777378502,
+        "score": 0.6291251708207178,
+        "family": "gelfond_schneider"
+      },
+      {
+        "key": "pi_to_cos_e",
+        "name": "\u03c0^cos(e)",
+        "value": 0.3521531685161394,
+        "score": 0.6087599510811128,
+        "family": "trigonometric"
+      },
+      {
+        "key": "pi_to_pi",
+        "name": "\u03c0^\u03c0",
+        "value": 36.4621596072079,
+        "score": 0.607116868182561,
+        "family": "self_exponentials"
+      },
+      {
+        "key": "pi_to_phi",
+        "name": "\u03c0^\u03c6",
+        "value": 6.373902142303395,
+        "score": 0.5909129861884967,
+        "family": "core_compounds"
+      },
+      {
+        "key": "tau_to_phi",
+        "name": "\u03c4^\u03c6",
+        "value": 19.565103791267788,
+        "score": 0.5740674046333168,
+        "family": "core_compounds"
+      },
+      {
+        "key": "pi_to_e",
+        "name": "\u03c0^e",
+        "value": 22.45915771836104,
+        "score": 0.5519543557297145,
+        "family": "unknown"
+      },
+      {
+        "key": "e_to_pi_to_e",
+        "name": "e^(\u03c0^e)",
+        "value": 5673986070.5057955,
+        "score": 0.5417603458326231,
+        "family": "nested"
+      },
+      {
+        "key": "phi_to_pi",
+        "name": "\u03c6^\u03c0",
+        "value": 4.53475716115518,
+        "score": 0.5348491585537329,
+        "family": "core_compounds"
+      },
+      {
+        "key": "gelfond_schneider_e",
+        "name": "e^\u221a2",
+        "value": 4.1132503787829275,
+        "score": 0.5232608226317399,
+        "family": "gelfond_schneider"
+      },
+      {
+        "key": "gelfond_schneider",
+        "name": "2^\u221a2",
+        "value": 2.665144142690225,
+        "score": 0.5197515920755165,
+        "family": "gelfond_schneider"
+      },
+      {
+        "key": "gelfond_schneider_phi",
+        "name": "\u03c6^\u221a2",
+        "value": 1.974936585783606,
+        "score": 0.4933921464705054,
+        "family": "gelfond_schneider"
+      },
+      {
+        "key": "phi_to_tau",
+        "name": "\u03c6^\u03c4",
+        "value": 20.564022510648183,
+        "score": 0.4924345142590565,
+        "family": "core_compounds"
+      },
+      {
+        "key": "phi_to_e",
+        "name": "\u03c6^e",
+        "value": 3.6990253265804744,
+        "score": 0.4905023538365202,
+        "family": "core_compounds"
+      },
+      {
+        "key": "gelfond_schneider_pi",
+        "name": "\u03c0^\u221a2",
+        "value": 5.047497267370911,
+        "score": 0.4831619223390955,
+        "family": "gelfond_schneider"
+      },
+      {
+        "key": "tau_to_tau",
+        "name": "\u03c4^\u03c4",
+        "value": 103540.92043427199,
+        "score": 0.4830476643998982,
+        "family": "self_exponentials"
+      },
+      {
+        "key": "e_to_pi",
+        "name": "e^\u03c0",
+        "value": 23.140692632779263,
+        "score": 0.4812795973099224,
+        "family": "unknown"
+      },
+      {
+        "key": "phi_to_phi",
+        "name": "\u03c6^\u03c6",
+        "value": 2.1784575679375995,
+        "score": 0.48034662945311074,
+        "family": "self_exponentials"
+      },
+      {
+        "key": "e_to_phi",
+        "name": "e^\u03c6",
+        "value": 5.0431656433600285,
+        "score": 0.4764289597955601,
+        "family": "core_compounds"
+      },
+      {
+        "key": "e_to_e",
+        "name": "e^e",
+        "value": 15.154262241479259,
+        "score": 0.47413180483324513,
+        "family": "self_exponentials"
+      },
+      {
+        "key": "e_to_ln_pi",
+        "name": "e^ln(\u03c0)",
+        "value": 3.141592653589793,
+        "score": 0.4496510362248577,
+        "family": "logarithmic"
+      },
+      {
+        "key": "pi_to_ln_e",
+        "name": "\u03c0^ln(e)",
+        "value": 3.141592653589793,
+        "score": 0.4496510362248577,
+        "family": "logarithmic"
+      },
+      {
+        "key": "e_to_sin_pi",
+        "name": "e^sin(\u03c0)",
+        "value": 1.0000000000000002,
+        "score": 0.4001991423943584,
+        "family": "trigonometric"
+      }
+    ],
+    "total_tested": 22,
+    "total_operational": 22
+  },
+  "investigation_complete": true,
+  "all_calculations_verified": true
+}

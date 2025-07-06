@@ -1,0 +1,3468 @@
+{
+  "transcendental_mapping": {
+    "total_combinations": 85,
+    "tested_combinations": 85,
+    "operational_combinations": [
+      {
+        "combination": {
+          "expression": "phi",
+          "value": 1.618033988749895,
+          "order": 1,
+          "type": "core_constant",
+          "components": [
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6095420692237021,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e",
+          "value": 2.718281828459045,
+          "order": 1,
+          "type": "core_constant",
+          "components": [
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.46619561591053016,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi",
+          "value": 3.141592653589793,
+          "order": 1,
+          "type": "core_constant",
+          "components": [
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.42574306681469043,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau",
+          "value": 6.283185307179586,
+          "order": 1,
+          "type": "core_constant",
+          "components": [
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5034734479481779,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi/tau",
+          "value": 0.25751810740024195,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5042118420051684,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "|pi-e|",
+          "value": 0.423310825130748,
+          "order": 2,
+          "type": "subtractive",
+          "components": [
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6124243212166334,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e/tau",
+          "value": 0.43262798971613253,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "e",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6080007802612156,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi/tau",
+          "value": 0.5,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "pi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5799907856510808,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi/pi",
+          "value": 0.5150362148004839,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5865089845977133,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi/e",
+          "value": 0.5952414395777111,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5244255047052329,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e/pi",
+          "value": 0.8652559794322651,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "e",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4593673250105401,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "|phi-e|",
+          "value": 1.1002478397091502,
+          "order": 2,
+          "type": "subtractive",
+          "components": [
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.3858660965615157,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi/e",
+          "value": 1.1557273497909217,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.34317674039636425,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "|pi-phi|",
+          "value": 1.5235586648398982,
+          "order": 2,
+          "type": "subtractive",
+          "components": [
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.612481795033956,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e/phi",
+          "value": 1.679990560988901,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5804853548738187,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi/phi",
+          "value": 1.9416110387254664,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.487479794596257,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau/pi",
+          "value": 2.0,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "tau",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.45190761748065245,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^phi",
+          "value": 2.1784575679375995,
+          "order": 2,
+          "type": "self_exponential",
+          "components": [
+            "phi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.48568844283926904,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau/e",
+          "value": 2.3114546995818435,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "tau",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.45358722253498396,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "|e-tau|",
+          "value": 3.564903478720541,
+          "order": 2,
+          "type": "subtractive",
+          "components": [
+            "e",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5390518308600993,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^e",
+          "value": 3.6990253265804744,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4787132267946116,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau/phi",
+          "value": 3.8832220774509327,
+          "order": 2,
+          "type": "divisive",
+          "components": [
+            "tau",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5363903025112937,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi+e",
+          "value": 4.3363158172089395,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4527664614244513,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi*e",
+          "value": 4.398272389447946,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4932529507946454,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^pi",
+          "value": 4.53475716115518,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.519020004733227,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "|phi-tau|",
+          "value": 4.665151318429691,
+          "order": 2,
+          "type": "subtractive",
+          "components": [
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4606133368234809,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi+phi",
+          "value": 4.759626642339688,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.3916431494677266,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^phi",
+          "value": 5.0431656433600285,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.43755839995401014,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi*phi",
+          "value": 5.0832036923152595,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.47793964163436486,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi+e",
+          "value": 5.859874482048838,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4701942055644731,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^phi",
+          "value": 6.373902142303395,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5700122317095064,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi+tau",
+          "value": 7.901219295929481,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.46391757332850403,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi*e",
+          "value": 8.539734222673566,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5111842995375647,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e+tau",
+          "value": 9.00146713563863,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "e",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.42800816693918176,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi+tau",
+          "value": 9.42477796076938,
+          "order": 2,
+          "type": "additive",
+          "components": [
+            "pi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5422210991163962,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi*tau",
+          "value": 10.166407384630519,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.45737731533631953,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^e",
+          "value": 15.154262241479259,
+          "order": 2,
+          "type": "self_exponential",
+          "components": [
+            "e",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.48031935324000186,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e*tau",
+          "value": 17.079468445347132,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "e",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.48432595910878673,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^phi",
+          "value": 19.565103791267788,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "tau",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5671773332977226,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi*tau",
+          "value": 19.739208802178716,
+          "order": 2,
+          "type": "multiplicative",
+          "components": [
+            "pi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.39831460081892195,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^tau",
+          "value": 20.564022510648183,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5099282746986602,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^e",
+          "value": 22.45915771836104,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5610068668213082,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^pi",
+          "value": 23.140692632779263,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "e",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.45116355252034035,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^pi",
+          "value": 36.4621596072079,
+          "order": 2,
+          "type": "self_exponential",
+          "components": [
+            "pi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5943199409923167,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^e",
+          "value": 147.80115639882416,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "tau",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4655526089226283,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^pi",
+          "value": 321.77775006092634,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "tau",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4717943061400439,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^tau",
+          "value": 535.4916555247644,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "e",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5627243308965477,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^tau",
+          "value": 1329.4890832215035,
+          "order": 2,
+          "type": "exponential",
+          "components": [
+            "pi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6030467635937952,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^tau",
+          "value": 103540.92043427199,
+          "order": 2,
+          "type": "self_exponential",
+          "components": [
+            "tau",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.47078887336592085,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(phi^phi)",
+          "value": 2.8527959317829183,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "phi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.41942118891503194,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(phi^e)",
+          "value": 5.929943756208329,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4736482435715895,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(phi^phi)",
+          "value": 8.832671950014177,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "phi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.44902808804311156,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(phi^pi)",
+          "value": 8.8656013350765,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.45185613710579986,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(e^phi)",
+          "value": 11.322942116827765,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4827030092334189,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(phi^phi)",
+          "value": 12.10653613338707,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "phi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5414406601109394,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(pi^phi)",
+          "value": 21.48160704353505,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6106207922135507,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(phi^e)",
+          "value": 40.407900653608245,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5074772070867344,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^(phi^phi)",
+          "value": 54.802576225236464,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "tau",
+            "phi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4745292148442608,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(phi^e)",
+          "value": 69.01920780545476,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4099596063786589,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(phi^pi)",
+          "value": 93.20087976216293,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5106620711827567,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(e^phi)",
+          "value": 154.95978681567578,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4551068242170424,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(phi^pi)",
+          "value": 179.66105490245292,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5117891461968415,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(e^phi)",
+          "value": 321.52086202913375,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.49197902902821844,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(pi^phi)",
+          "value": 586.341358083418,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5862981454638072,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^(phi^e)",
+          "value": 896.3704854965351,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "tau",
+            "phi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5087780684995422,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(e^e)",
+          "value": 1469.1072621872042,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "e",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4169234813099377,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(pi^phi)",
+          "value": 1474.974929638492,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4078325201678759,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^(phi^pi)",
+          "value": 4164.394593038398,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "tau",
+            "phi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5544802961068924,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^(e^phi)",
+          "value": 10601.157561309063,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "tau",
+            "e",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.48781987092465173,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(tau^phi)",
+          "value": 12270.573822072656,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "tau",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5420392204818939,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(phi^tau)",
+          "value": 19843.877552873422,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4110140490744698,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(pi^e)",
+          "value": 49395.384861427796,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5408543605966314,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(e^pi)",
+          "value": 68567.56818644716,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "e",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5742290233364415,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "tau^(pi^phi)",
+          "value": 122326.45013715606,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "tau",
+            "pi",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5256174875257554,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(e^e)",
+          "value": 3814279.1047601975,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "e",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4901759350811995,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(e^e)",
+          "value": 34193184.064821444,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "e",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4597630785507564,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "phi^(pi^pi)",
+          "value": 41700445.50141237,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "phi",
+            "pi",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.49919396810663963,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(tau^phi)",
+          "value": 314062883.9780777,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "tau",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.4825625627909532,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(phi^tau)",
+          "value": 852788827.7726233,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5000843354195164,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(tau^phi)",
+          "value": 5330756671.112747,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "tau",
+            "phi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5399033366415038,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(pi^e)",
+          "value": 5673986070.5057955,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5250270370584382,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "e^(e^pi)",
+          "value": 11216958622.467566,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "e",
+            "e",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.49412912318983515,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(phi^tau)",
+          "value": 16726349732.826298,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "phi",
+            "tau"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.5013748277302874,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(pi^e)",
+          "value": 146408873973.996,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "pi",
+            "e"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.38698122241060445,
+        "test_completed": true
+      },
+      {
+        "combination": {
+          "expression": "pi^(e^pi)",
+          "value": 319442279626.555,
+          "order": 3,
+          "type": "nested_exponential",
+          "components": [
+            "pi",
+            "e",
+            "pi"
+          ]
+        },
+        "operational": "True",
+        "unified_score": 0.6228883968609162,
+        "test_completed": true
+      }
+    ],
+    "operational_rate": 1.0
+  },
+  "physical_integration": {
+    "all_results": {
+      "c": {
+        "constant_info": {
+          "value": 299792458,
+          "name": "Speed of Light",
+          "unit": "m/s",
+          "type": "fundamental"
+        },
+        "raw_value": 299792458,
+        "test_value": 299792458,
+        "normalization": "none",
+        "unified_score": 0.4209403141241687,
+        "operational": "True"
+      },
+      "h": {
+        "constant_info": {
+          "value": 6.62607015e-34,
+          "name": "Planck Constant",
+          "unit": "J\u22c5s",
+          "type": "fundamental"
+        },
+        "raw_value": 6.62607015e-34,
+        "test_value": 33.17874397056745,
+        "normalization": "negative_log10",
+        "unified_score": 0.471459041776245,
+        "operational": "True"
+      },
+      "hbar": {
+        "constant_info": {
+          "value": 1.054571817e-34,
+          "name": "Reduced Planck Constant",
+          "unit": "J\u22c5s",
+          "type": "fundamental"
+        },
+        "raw_value": 1.054571817e-34,
+        "test_value": 33.97692383919167,
+        "normalization": "negative_log10",
+        "unified_score": 0.3743542642497172,
+        "operational": "True"
+      },
+      "G": {
+        "constant_info": {
+          "value": 6.6743e-11,
+          "name": "Gravitational Constant",
+          "unit": "m\u00b3/kg\u22c5s\u00b2",
+          "type": "fundamental"
+        },
+        "raw_value": 6.6743e-11,
+        "test_value": 10.17559427634224,
+        "normalization": "negative_log10",
+        "unified_score": 0.4666650951434923,
+        "operational": "True"
+      },
+      "k_B": {
+        "constant_info": {
+          "value": 1.380649e-23,
+          "name": "Boltzmann Constant",
+          "unit": "J/K",
+          "type": "fundamental"
+        },
+        "raw_value": 1.380649e-23,
+        "test_value": 22.859916717321767,
+        "normalization": "negative_log10",
+        "unified_score": 0.44252387474305166,
+        "operational": "True"
+      },
+      "N_A": {
+        "constant_info": {
+          "value": 6.02214076e+23,
+          "name": "Avogadro Number",
+          "unit": "1/mol",
+          "type": "fundamental"
+        },
+        "raw_value": 6.02214076e+23,
+        "test_value": 23.779750902385114,
+        "normalization": "log10",
+        "unified_score": 0.50360240421064,
+        "operational": "True"
+      },
+      "e_charge": {
+        "constant_info": {
+          "value": 1.602176634e-19,
+          "name": "Elementary Charge",
+          "unit": "C",
+          "type": "electromagnetic"
+        },
+        "raw_value": 1.602176634e-19,
+        "test_value": 18.795289606265015,
+        "normalization": "negative_log10",
+        "unified_score": 0.43380417346590294,
+        "operational": "True"
+      },
+      "epsilon_0": {
+        "constant_info": {
+          "value": 8.8541878128e-12,
+          "name": "Vacuum Permittivity",
+          "unit": "F/m",
+          "type": "electromagnetic"
+        },
+        "raw_value": 8.8541878128e-12,
+        "test_value": 11.05285127011439,
+        "normalization": "negative_log10",
+        "unified_score": 0.4777246265330513,
+        "operational": "True"
+      },
+      "mu_0": {
+        "constant_info": {
+          "value": 1.25663706212e-06,
+          "name": "Vacuum Permeability",
+          "unit": "H/m",
+          "type": "electromagnetic"
+        },
+        "raw_value": 1.25663706212e-06,
+        "test_value": 1.25663706212e-06,
+        "normalization": "none",
+        "unified_score": 0.23270221387554457,
+        "operational": "False"
+      },
+      "alpha": {
+        "constant_info": {
+          "value": 0.0072973525693,
+          "name": "Fine Structure Constant",
+          "unit": "dimensionless",
+          "type": "electromagnetic"
+        },
+        "raw_value": 0.0072973525693,
+        "test_value": 0.0072973525693,
+        "normalization": "none",
+        "unified_score": 0.2612563506417357,
+        "operational": "False"
+      },
+      "m_e": {
+        "constant_info": {
+          "value": 9.1093837015e-31,
+          "name": "Electron Mass",
+          "unit": "kg",
+          "type": "atomic"
+        },
+        "raw_value": 9.1093837015e-31,
+        "test_value": 30.040511004376256,
+        "normalization": "negative_log10",
+        "unified_score": 0.3402624873016953,
+        "operational": "True"
+      },
+      "m_p": {
+        "constant_info": {
+          "value": 1.67262192369e-27,
+          "name": "Proton Mass",
+          "unit": "kg",
+          "type": "atomic"
+        },
+        "raw_value": 1.67262192369e-27,
+        "test_value": 26.776602215051415,
+        "normalization": "negative_log10",
+        "unified_score": 0.4698299452652024,
+        "operational": "True"
+      },
+      "m_n": {
+        "constant_info": {
+          "value": 1.67492749804e-27,
+          "name": "Neutron Mass",
+          "unit": "kg",
+          "type": "atomic"
+        },
+        "raw_value": 1.67492749804e-27,
+        "test_value": 26.776003987363037,
+        "normalization": "negative_log10",
+        "unified_score": 0.4756273877109882,
+        "operational": "True"
+      },
+      "a_0": {
+        "constant_info": {
+          "value": 5.29177210903e-11,
+          "name": "Bohr Radius",
+          "unit": "m",
+          "type": "atomic"
+        },
+        "raw_value": 5.29177210903e-11,
+        "test_value": 10.276398867039683,
+        "normalization": "negative_log10",
+        "unified_score": 0.43091608767394995,
+        "operational": "True"
+      },
+      "R_inf": {
+        "constant_info": {
+          "value": 10973731.56816,
+          "name": "Rydberg Constant",
+          "unit": "1/m",
+          "type": "atomic"
+        },
+        "raw_value": 10973731.56816,
+        "test_value": 10973731.56816,
+        "normalization": "none",
+        "unified_score": 0.5641653163297426,
+        "operational": "True"
+      },
+      "H_0": {
+        "constant_info": {
+          "value": 67.4,
+          "name": "Hubble Constant",
+          "unit": "km/s/Mpc",
+          "type": "cosmological"
+        },
+        "raw_value": 67.4,
+        "test_value": 67.4,
+        "normalization": "none",
+        "unified_score": 0.5229942378737552,
+        "operational": "True"
+      },
+      "Omega_m": {
+        "constant_info": {
+          "value": 0.315,
+          "name": "Matter Density Parameter",
+          "unit": "dimensionless",
+          "type": "cosmological"
+        },
+        "raw_value": 0.315,
+        "test_value": 0.315,
+        "normalization": "none",
+        "unified_score": 0.5646416787717509,
+        "operational": "True"
+      },
+      "Omega_Lambda": {
+        "constant_info": {
+          "value": 0.685,
+          "name": "Dark Energy Density Parameter",
+          "unit": "dimensionless",
+          "type": "cosmological"
+        },
+        "raw_value": 0.685,
+        "test_value": 0.685,
+        "normalization": "none",
+        "unified_score": 0.48459966569582574,
+        "operational": "True"
+      }
+    },
+    "operational_constants": [
+      {
+        "key": "Omega_m",
+        "name": "Matter Density Parameter",
+        "score": 0.5646416787717509,
+        "type": "cosmological",
+        "normalization": "none"
+      },
+      {
+        "key": "R_inf",
+        "name": "Rydberg Constant",
+        "score": 0.5641653163297426,
+        "type": "atomic",
+        "normalization": "none"
+      },
+      {
+        "key": "H_0",
+        "name": "Hubble Constant",
+        "score": 0.5229942378737552,
+        "type": "cosmological",
+        "normalization": "none"
+      },
+      {
+        "key": "N_A",
+        "name": "Avogadro Number",
+        "score": 0.50360240421064,
+        "type": "fundamental",
+        "normalization": "log10"
+      },
+      {
+        "key": "Omega_Lambda",
+        "name": "Dark Energy Density Parameter",
+        "score": 0.48459966569582574,
+        "type": "cosmological",
+        "normalization": "none"
+      },
+      {
+        "key": "epsilon_0",
+        "name": "Vacuum Permittivity",
+        "score": 0.4777246265330513,
+        "type": "electromagnetic",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "m_n",
+        "name": "Neutron Mass",
+        "score": 0.4756273877109882,
+        "type": "atomic",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "h",
+        "name": "Planck Constant",
+        "score": 0.471459041776245,
+        "type": "fundamental",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "m_p",
+        "name": "Proton Mass",
+        "score": 0.4698299452652024,
+        "type": "atomic",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "G",
+        "name": "Gravitational Constant",
+        "score": 0.4666650951434923,
+        "type": "fundamental",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "k_B",
+        "name": "Boltzmann Constant",
+        "score": 0.44252387474305166,
+        "type": "fundamental",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "e_charge",
+        "name": "Elementary Charge",
+        "score": 0.43380417346590294,
+        "type": "electromagnetic",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "a_0",
+        "name": "Bohr Radius",
+        "score": 0.43091608767394995,
+        "type": "atomic",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "c",
+        "name": "Speed of Light",
+        "score": 0.4209403141241687,
+        "type": "fundamental",
+        "normalization": "none"
+      },
+      {
+        "key": "hbar",
+        "name": "Reduced Planck Constant",
+        "score": 0.3743542642497172,
+        "type": "fundamental",
+        "normalization": "negative_log10"
+      },
+      {
+        "key": "m_e",
+        "name": "Electron Mass",
+        "score": 0.3402624873016953,
+        "type": "atomic",
+        "normalization": "negative_log10"
+      }
+    ],
+    "total_tested": 18,
+    "total_operational": 16
+  },
+  "higher_order_compounds": {
+    "all_compounds": [
+      {
+        "expression": "pi^(pi^(phi^phi))",
+        "value": 1044150.0112130194,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "pi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "pi^(phi^(pi^phi))",
+        "value": 47816546556.22204,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "pi^(phi^(phi^pi))",
+        "value": 25558.33599073737,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "pi"
+        ]
+      },
+      {
+        "expression": "pi^(phi^(phi^phi))",
+        "value": 26.197939466081348,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "pi^(phi^(phi^e))",
+        "value": 887.3006169367377,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "pi^(phi^(e^phi))",
+        "value": 425793.7005204372,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "phi",
+          "e",
+          "phi"
+        ]
+      },
+      {
+        "expression": "pi^(e^(phi^phi))",
+        "value": 24612.84039661422,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(pi^(phi^phi))",
+        "value": 338.9349997675921,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "pi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(phi^(pi^phi))",
+        "value": 30859.60514004905,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(phi^(phi^pi))",
+        "value": 71.25266334301799,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "phi",
+          "phi",
+          "pi"
+        ]
+      },
+      {
+        "expression": "phi^(phi^(phi^phi))",
+        "value": 3.9463817121030584,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "phi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(phi^(phi^e))",
+        "value": 17.349419670127315,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "phi^(phi^(e^phi))",
+        "value": 232.4635970830407,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "phi",
+          "e",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(e^(phi^phi))",
+        "value": 70.13249152964363,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "phi^(e^(phi^e))",
+        "value": 278452938.317365,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "phi^(tau^(phi^phi))",
+        "value": 283831821905.84924,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "phi",
+          "tau",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "e^(pi^(phi^phi))",
+        "value": 181051.3792791476,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "pi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "e^(phi^(pi^phi))",
+        "value": 2134732202.2003272,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "e^(phi^(phi^pi))",
+        "value": 7084.051969645651,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "phi",
+          "phi",
+          "pi"
+        ]
+      },
+      {
+        "expression": "e^(phi^(phi^phi))",
+        "value": 17.336184933613435,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "phi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "e^(phi^(phi^e))",
+        "value": 376.133358063573,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "e^(phi^(e^phi))",
+        "value": 82697.29044637005,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "phi",
+          "e",
+          "phi"
+        ]
+      },
+      {
+        "expression": "e^(e^(phi^phi))",
+        "value": 6854.577457235077,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "e",
+          "e",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "tau^(pi^(phi^phi))",
+        "value": 4604615989.195631,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "pi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "tau^(phi^(phi^pi))",
+        "value": 11921873.423643468,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "phi",
+          "phi",
+          "pi"
+        ]
+      },
+      {
+        "expression": "tau^(phi^(phi^phi))",
+        "value": 189.2536574528604,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "phi",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "tau^(phi^(phi^e))",
+        "value": 54095.57316719884,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "tau^(phi^(e^phi))",
+        "value": 1090798289.4769874,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "phi",
+          "e",
+          "phi"
+        ]
+      },
+      {
+        "expression": "tau^(e^(phi^phi))",
+        "value": 11221758.917615514,
+        "order": 4,
+        "type": "quadruple_nested",
+        "components": [
+          "tau",
+          "e",
+          "phi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(pi^phi)*(pi^phi)",
+        "value": 40.62662851965981,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(pi^phi)+(pi^phi)",
+        "value": 12.74780428460679,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(pi^phi)/(pi^phi)",
+        "value": 1.0,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(pi^phi)*(pi^e)",
+        "value": 143.15247349539126,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)+(pi^e)",
+        "value": 28.833059860664434,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)/(pi^e)",
+        "value": 0.2837996964192712,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "phi",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)*(phi^e)",
+        "value": 23.577225453525802,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)+(phi^e)",
+        "value": 10.072927468883869,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)/(phi^e)",
+        "value": 1.723130170670035,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^phi)*(phi^tau)",
+        "value": 131.07306713499568,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^phi)+(phi^tau)",
+        "value": 26.93792465295158,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^phi)/(phi^tau)",
+        "value": 0.30995405393098296,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "phi",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^phi)*(e^tau)",
+        "value": 3413.1714103348872,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "phi",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^phi)+(e^tau)",
+        "value": 541.8655576670678,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "phi",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^phi)/(e^tau)",
+        "value": 0.011902897228262462,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "phi",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)/(pi^phi)",
+        "value": 3.523611943977033,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "e",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(pi^e)*(pi^e)",
+        "value": 504.4137654182163,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "e",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^e)+(pi^e)",
+        "value": 44.91831543672208,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "e",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^e)*(phi^e)",
+        "value": 83.07699321388283,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^e)+(phi^e)",
+        "value": 26.158183044941516,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^e)/(phi^e)",
+        "value": 6.0716420504001185,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(pi^e)*(phi^tau)",
+        "value": 461.85062489057435,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)+(phi^tau)",
+        "value": 43.02318022900923,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)/(phi^tau)",
+        "value": 1.092157806515313,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)*(e^tau)",
+        "value": 12026.691548296943,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "pi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)+(e^tau)",
+        "value": 557.9508132431254,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "pi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(pi^e)/(e^tau)",
+        "value": 0.04194119084143673,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "pi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)/(pi^phi)",
+        "value": 0.5803392088545187,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "e",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(phi^e)/(pi^e)",
+        "value": 0.16470009129311244,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "e",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(phi^e)*(phi^e)",
+        "value": 13.682788366683786,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(phi^e)+(phi^e)",
+        "value": 7.398050653160949,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(phi^e)*(phi^tau)",
+        "value": 76.06684008325863,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)+(phi^tau)",
+        "value": 24.263047837228658,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)/(phi^tau)",
+        "value": 0.1798784904395575,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "e",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)*(e^tau)",
+        "value": 1980.7971959586105,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "phi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)+(e^tau)",
+        "value": 539.1906808513448,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "phi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^e)/(e^tau)",
+        "value": 0.006907717960526481,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "e",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^tau)/(pi^phi)",
+        "value": 3.2262846293427363,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "tau",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(phi^tau)/(pi^e)",
+        "value": 0.9156185983696296,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "tau",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(phi^tau)/(phi^e)",
+        "value": 5.55930838398946,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "tau",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(phi^tau)*(phi^tau)",
+        "value": 422.8790218184452,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "phi",
+          "tau",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^tau)+(phi^tau)",
+        "value": 41.128045021296366,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "phi",
+          "tau",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^tau)*(e^tau)",
+        "value": 11011.862458475518,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "phi",
+          "tau",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^tau)+(e^tau)",
+        "value": 556.0556780354126,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "phi",
+          "tau",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(phi^tau)/(e^tau)",
+        "value": 0.03840213437218944,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "phi",
+          "tau",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(e^tau)/(pi^phi)",
+        "value": 84.01315921854565,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "e",
+          "tau",
+          "pi",
+          "phi"
+        ]
+      },
+      {
+        "expression": "(e^tau)/(pi^e)",
+        "value": 23.842909081447154,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "e",
+          "tau",
+          "pi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(e^tau)/(phi^e)",
+        "value": 144.7656093827814,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "e",
+          "tau",
+          "phi",
+          "e"
+        ]
+      },
+      {
+        "expression": "(e^tau)/(phi^tau)",
+        "value": 26.04021928333736,
+        "order": 3,
+        "type": "compound_divisive",
+        "components": [
+          "e",
+          "tau",
+          "phi",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(e^tau)*(e^tau)",
+        "value": 286751.3131366529,
+        "order": 3,
+        "type": "compound_multiplicative",
+        "components": [
+          "e",
+          "tau",
+          "e",
+          "tau"
+        ]
+      },
+      {
+        "expression": "(e^tau)+(e^tau)",
+        "value": 1070.9833110495288,
+        "order": 3,
+        "type": "compound_additive",
+        "components": [
+          "e",
+          "tau",
+          "e",
+          "tau"
+        ]
+      }
+    ],
+    "operational_compounds": [
+      {
+        "compound": {
+          "expression": "tau^(phi^(e^phi))",
+          "value": 1090798289.4769874,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "phi",
+            "e",
+            "phi"
+          ]
+        },
+        "unified_score": 0.6014469631385276
+      },
+      {
+        "compound": {
+          "expression": "tau^(phi^(phi^e))",
+          "value": 54095.57316719884,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.5996359033683542
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)*(phi^e)",
+          "value": 23.577225453525802,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.5748366715257802
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)*(pi^e)",
+          "value": 504.4137654182163,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "e",
+            "pi",
+            "e"
+          ]
+        },
+        "unified_score": 0.546747283136426
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)/(phi^tau)",
+          "value": 0.30995405393098296,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "tau"
+          ]
+        },
+        "unified_score": 0.5395547293836644
+      },
+      {
+        "compound": {
+          "expression": "phi^(phi^(pi^phi))",
+          "value": 30859.60514004905,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.5279700382389837
+      },
+      {
+        "compound": {
+          "expression": "phi^(phi^(phi^phi))",
+          "value": 3.9463817121030584,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "phi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.5228446911265182
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)/(pi^e)",
+          "value": 0.2837996964192712,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "e"
+          ]
+        },
+        "unified_score": 0.5158016126602667
+      },
+      {
+        "compound": {
+          "expression": "e^(phi^(pi^phi))",
+          "value": 2134732202.2003272,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.513861423579024
+      },
+      {
+        "compound": {
+          "expression": "e^(pi^(phi^phi))",
+          "value": 181051.3792791476,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "pi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.5094428248945162
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)/(pi^phi)",
+          "value": 3.523611943977033,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "e",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.5017153527299579
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)/(phi^e)",
+          "value": 1.723130170670035,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.4915806129526904
+      },
+      {
+        "compound": {
+          "expression": "pi^(phi^(phi^e))",
+          "value": 887.3006169367377,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.48855711986965655
+      },
+      {
+        "compound": {
+          "expression": "phi^(phi^(e^phi))",
+          "value": 232.4635970830407,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "phi",
+            "e",
+            "phi"
+          ]
+        },
+        "unified_score": 0.48326958210074294
+      },
+      {
+        "compound": {
+          "expression": "tau^(phi^(phi^pi))",
+          "value": 11921873.423643468,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "phi",
+            "phi",
+            "pi"
+          ]
+        },
+        "unified_score": 0.48135982458240245
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)*(pi^phi)",
+          "value": 40.62662851965981,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.48047672313009926
+      },
+      {
+        "compound": {
+          "expression": "pi^(phi^(e^phi))",
+          "value": 425793.7005204372,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "phi",
+            "e",
+            "phi"
+          ]
+        },
+        "unified_score": 0.47967086595066954
+      },
+      {
+        "compound": {
+          "expression": "phi^(e^(phi^phi))",
+          "value": 70.13249152964363,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "e",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.47883041430603884
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)*(e^tau)",
+          "value": 3413.1714103348872,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "phi",
+            "e",
+            "tau"
+          ]
+        },
+        "unified_score": 0.467314044814391
+      },
+      {
+        "compound": {
+          "expression": "pi^(phi^(pi^phi))",
+          "value": 47816546556.22204,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.4655273429703911
+      },
+      {
+        "compound": {
+          "expression": "e^(e^(phi^phi))",
+          "value": 6854.577457235077,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "e",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.4595998739594978
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)+(phi^tau)",
+          "value": 26.93792465295158,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "tau"
+          ]
+        },
+        "unified_score": 0.45184185533633203
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)+(phi^e)",
+          "value": 10.072927468883869,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.44554271808397844
+      },
+      {
+        "compound": {
+          "expression": "pi^(phi^(phi^pi))",
+          "value": 25558.33599073737,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "pi"
+          ]
+        },
+        "unified_score": 0.44165310518559
+      },
+      {
+        "compound": {
+          "expression": "e^(phi^(phi^e))",
+          "value": 376.133358063573,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.43985648746672
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)+(e^tau)",
+          "value": 541.8655576670678,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "phi",
+            "e",
+            "tau"
+          ]
+        },
+        "unified_score": 0.43648233504784245
+      },
+      {
+        "compound": {
+          "expression": "e^(phi^(phi^pi))",
+          "value": 7084.051969645651,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "phi",
+            "phi",
+            "pi"
+          ]
+        },
+        "unified_score": 0.4318166670719077
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)/(phi^e)",
+          "value": 6.0716420504001185,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "e",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.43056119399314785
+      },
+      {
+        "compound": {
+          "expression": "tau^(pi^(phi^phi))",
+          "value": 4604615989.195631,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "pi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.422733015592688
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)+(pi^e)",
+          "value": 44.91831543672208,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "e",
+            "pi",
+            "e"
+          ]
+        },
+        "unified_score": 0.4190638139443075
+      },
+      {
+        "compound": {
+          "expression": "phi^(pi^(phi^phi))",
+          "value": 338.9349997675921,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "pi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.41546238292888393
+      },
+      {
+        "compound": {
+          "expression": "phi^(tau^(phi^phi))",
+          "value": 283831821905.84924,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "tau",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.41498813404582
+      },
+      {
+        "compound": {
+          "expression": "phi^(phi^(phi^pi))",
+          "value": 71.25266334301799,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "phi",
+            "phi",
+            "pi"
+          ]
+        },
+        "unified_score": 0.41105854890413607
+      },
+      {
+        "compound": {
+          "expression": "phi^(e^(phi^e))",
+          "value": 278452938.317365,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "e",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.40996839339208924
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)*(pi^e)",
+          "value": 143.15247349539126,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "e"
+          ]
+        },
+        "unified_score": 0.4082824596403112
+      },
+      {
+        "compound": {
+          "expression": "e^(phi^(e^phi))",
+          "value": 82697.29044637005,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "phi",
+            "e",
+            "phi"
+          ]
+        },
+        "unified_score": 0.40763899864248443
+      },
+      {
+        "compound": {
+          "expression": "pi^(e^(phi^phi))",
+          "value": 24612.84039661422,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "e",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.4025334147325129
+      },
+      {
+        "compound": {
+          "expression": "phi^(phi^(phi^e))",
+          "value": 17.349419670127315,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "phi",
+            "phi",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.4014990290502841
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)+(phi^e)",
+          "value": 26.158183044941516,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "e",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.39677517469556345
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)+(pi^e)",
+          "value": 28.833059860664434,
+          "order": 3,
+          "type": "compound_additive",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "e"
+          ]
+        },
+        "unified_score": 0.39403273945614803
+      },
+      {
+        "compound": {
+          "expression": "(pi^e)*(phi^e)",
+          "value": 83.07699321388283,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "e",
+            "phi",
+            "e"
+          ]
+        },
+        "unified_score": 0.38729984526796324
+      },
+      {
+        "compound": {
+          "expression": "tau^(e^(phi^phi))",
+          "value": 11221758.917615514,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "e",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3851230314360471
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)*(phi^tau)",
+          "value": 131.07306713499568,
+          "order": 3,
+          "type": "compound_multiplicative",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "tau"
+          ]
+        },
+        "unified_score": 0.3843729584816341
+      },
+      {
+        "compound": {
+          "expression": "e^(phi^(phi^phi))",
+          "value": 17.336184933613435,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "e",
+            "phi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3745890051030052
+      },
+      {
+        "compound": {
+          "expression": "pi^(phi^(phi^phi))",
+          "value": 26.197939466081348,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "phi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3676410314066453
+      },
+      {
+        "compound": {
+          "expression": "tau^(phi^(phi^phi))",
+          "value": 189.2536574528604,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "tau",
+            "phi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3669447443519182
+      },
+      {
+        "compound": {
+          "expression": "(pi^phi)/(pi^phi)",
+          "value": 1.0,
+          "order": 3,
+          "type": "compound_divisive",
+          "components": [
+            "pi",
+            "phi",
+            "pi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3606481808362506
+      },
+      {
+        "compound": {
+          "expression": "pi^(pi^(phi^phi))",
+          "value": 1044150.0112130194,
+          "order": 4,
+          "type": "quadruple_nested",
+          "components": [
+            "pi",
+            "pi",
+            "phi",
+            "phi"
+          ]
+        },
+        "unified_score": 0.3385199816749785
+      }
+    ],
+    "total_generated": 80,
+    "total_tested": 50,
+    "total_operational": 48
+  },
+  "ubp_physics": {
+    "reformulations": {
+      "mass_energy": {
+        "classical": "E = mc\u00b2",
+        "ubp_reformulation": "E = mc\u00b2 \u00d7 (\u03c0^e/\u03c4)",
+        "ubp_factor": 3.5744859685576533,
+        "explanation": "Energy computation includes transcendental correction factor",
+        "operational_constants": [
+          "\u03c0",
+          "e",
+          "\u03c4"
+        ]
+      },
+      "quantum_energy": {
+        "classical": "E = hf",
+        "ubp_reformulation": "E = hf \u00d7 (\u03c6^\u03c0/e^\u03c6)",
+        "ubp_factor": 0.8991886211641227,
+        "explanation": "Quantum energy includes golden ratio transcendental modulation",
+        "operational_constants": [
+          "\u03c6",
+          "\u03c0",
+          "e"
+        ]
+      },
+      "gravitational_force": {
+        "classical": "F = Gm\u2081m\u2082/r\u00b2",
+        "ubp_reformulation": "F = Gm\u2081m\u2082/r\u00b2 \u00d7 (\u03c4^\u03c6/\u03c0^\u03c4)",
+        "ubp_factor": 0.014716257574570912,
+        "explanation": "Gravitational force includes circular-golden transcendental correction",
+        "operational_constants": [
+          "\u03c4",
+          "\u03c6",
+          "\u03c0"
+        ]
+      },
+      "electric_force": {
+        "classical": "F = kq\u2081q\u2082/r\u00b2",
+        "ubp_reformulation": "F = kq\u2081q\u2082/r\u00b2 \u00d7 (e^\u03c4/\u03c6^e)",
+        "ubp_factor": 144.7656093827814,
+        "explanation": "Electric force includes exponential-circular transcendental modulation",
+        "operational_constants": [
+          "e",
+          "\u03c4",
+          "\u03c6"
+        ]
+      },
+      "schrodinger": {
+        "classical": "i\u210f\u2202\u03c8/\u2202t = \u0124\u03c8",
+        "ubp_reformulation": "i(\u210f\u00d7\u03c0^\u03c6)\u2202\u03c8/\u2202t = (\u0124\u00d7e^\u03c0)\u03c8",
+        "ubp_time_factor": 6.373902142303395,
+        "ubp_hamiltonian_factor": 23.140692632779263,
+        "explanation": "Quantum evolution includes transcendental time and energy modulation",
+        "operational_constants": [
+          "\u03c0",
+          "\u03c6",
+          "e"
+        ]
+      },
+      "maxwell_faraday": {
+        "classical": "\u2207\u00d7E = -\u2202B/\u2202t",
+        "ubp_reformulation": "\u2207\u00d7E = -(\u2202B/\u2202t) \u00d7 (\u03c4^e/\u03c0^\u03c6)",
+        "ubp_factor": 23.188488479901874,
+        "explanation": "Electromagnetic induction includes circular-exponential transcendental coupling",
+        "operational_constants": [
+          "\u03c4",
+          "e",
+          "\u03c0",
+          "\u03c6"
+        ]
+      },
+      "entropy": {
+        "classical": "S = k ln(\u03a9)",
+        "ubp_reformulation": "S = k ln(\u03a9) \u00d7 (\u03c6^\u03c4/e^\u03c0)",
+        "ubp_factor": 0.8886519879495234,
+        "explanation": "Entropy calculation includes golden-circular transcendental information factor",
+        "operational_constants": [
+          "\u03c6",
+          "\u03c4",
+          "e",
+          "\u03c0"
+        ]
+      }
+    },
+    "ubp_signature": {
+      "mean_factor": 25.355716934126477,
+      "std_factor": 46.01899377035313,
+      "factor_range": [
+        0.014716257574570912,
+        144.7656093827814
+      ],
+      "total_reformulations": 7
+    },
+    "operational_constants_used": [
+      "\u03c0",
+      "\u03c6",
+      "e",
+      "\u03c4",
+      "\u03c0^e",
+      "e^\u03c0"
+    ]
+  },
+  "comprehensive_summary": {
+    "total_tested": 153,
+    "total_operational": 149,
+    "overall_discovery_rate": 0.9738562091503268,
+    "physics_laws_enhanced": 7,
+    "research_phases_completed": 4,
+    "ubp_theory_advancement": "MAJOR"
+  }
+}
